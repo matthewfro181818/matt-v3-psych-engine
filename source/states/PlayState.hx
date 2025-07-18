@@ -58,9 +58,7 @@ import crowplexus.hscript.Expr.Error as IrisError;
 import crowplexus.hscript.Printer;
 #end
 
-#if VIDEOS_ALLOWED
 import hxvlc.flixel.FlxVideoSprite;
-#end
 
 /**
  * This is where all the Gameplay stuff happens and is managed

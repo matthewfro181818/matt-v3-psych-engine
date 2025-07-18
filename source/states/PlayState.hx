@@ -38,6 +38,7 @@ import shaders.ErrorHandledShader;
 import objects.VideoSprite;
 import objects.Note.EventNote;
 import objects.*;
+import objects.Bar as HealthBar;
 import states.stages.*;
 import states.stages.objects.*;
 
@@ -75,6 +76,95 @@ class PlayState extends MusicBeatState
 {
 	public static var STRUM_X = 42;
 	public static var STRUM_X_MIDDLESCROLL = -278;
+
+	public static var keyCount:Int = 4;
+	public static final multikeyScales:Array<Float> = [
+		1,
+		1,
+		1,
+		1,
+		0.7,
+		0.65,
+		0.6,
+		0.55,
+		0.5,
+		0.46
+	];
+	public static final multikeyWidths:Array<Float> = [
+		160,
+		160,
+		160,
+		160,
+		160,
+		140,
+		120,
+		110,
+		100,
+		90
+	];
+	public static final multikeyOffset:Array<Float> = [
+		0,
+		0,
+		0,
+		0,
+		0,
+		15,
+		35,
+		50,
+		60,
+		70
+	];
+	public static final multikeyIndexes:Array<Dynamic> = [
+		[],
+		[2],
+		[0,3],
+		[0,2,3],
+		[0,1,2,3],
+		[0,1,2,2,3],
+		[0,2,3,0,1,3],
+		[0,2,3,2,0,1,3],
+		[0,1,2,3,0,1,2,3],
+		[0,1,2,3,2,0,1,2,3]
+	];
+	public static final multikeyNoteAnimIndexes:Array<Dynamic> = [
+		[],
+		[4],
+		[0,3],
+		[0,4,3],
+		[0,1,2,3],
+		[0,1,4,2,3],
+		[0,2,3,0,1,3],
+		[0,2,3,4,0,1,3],
+		[0,1,2,3,0,1,2,3],
+		[0,1,2,3,4,0,1,2,3]
+	];
+	public static final multikeyRGBColors:Array<Dynamic> = [
+		[],
+		[ [0xFF12FA05, 0xFFFFFFFF, 0xFF0A4447]],
+		[ [0xFFC24B99, 0xFFFFFFFF, 0xFF3C1F56],[0xFFF9393F, 0xFFFFFFFF, 0xFF651038] ],
+		[ [0xFFC24B99, 0xFFFFFFFF, 0xFF3C1F56], [0xFF12FA05, 0xFFFFFFFF, 0xFF0A4447], [0xFFF9393F, 0xFFFFFFFF, 0xFF651038] ],
+		[ [0xFFC24B99, 0xFFFFFFFF, 0xFF3C1F56],[0xFF00FFFF, 0xFFFFFFFF, 0xFF1542B7], [0xFF12FA05, 0xFFFFFFFF, 0xFF0A4447], [0xFFF9393F, 0xFFFFFFFF, 0xFF651038] ],
+		[ [0xFFC24B99, 0xFFFFFFFF, 0xFF3C1F56],[0xFF00FFFF, 0xFFFFFFFF, 0xFF1542B7], [0xFFcccccc, 0xFFFFFFFF, 0xFF3e3e3e], [0xFF12FA05, 0xFFFFFFFF, 0xFF0A4447], [0xFFF9393F, 0xFFFFFFFF, 0xFF651038] ],
+		[ [0xFFC24B99, 0xFFFFFFFF, 0xFF3C1F56], [0xFF12FA05, 0xFFFFFFFF, 0xFF0A4447], [0xFFF9393F, 0xFFFFFFFF, 0xFF651038], [0xFFffff00, 0xFFFFFFFF, 0xFF993300], [0xFF00FFFF, 0xFFFFFFFF, 0xFF1542B7], [0xFF0033ff, 0xFFFFFFFF, 0xFF000066]],
+		[ [0xFFC24B99, 0xFFFFFFFF, 0xFF3C1F56], [0xFF12FA05, 0xFFFFFFFF, 0xFF0A4447], [0xFFF9393F, 0xFFFFFFFF, 0xFF651038], [0xFFcccccc, 0xFFFFFFFF, 0xFF3e3e3e],
+			[0xFFffff00, 0xFFFFFFFF, 0xFF993300], [0xFF00FFFF, 0xFFFFFFFF, 0xFF1542B7], [0xFF0033ff, 0xFFFFFFFF, 0xFF000066]],
+		[ [0xFFC24B99, 0xFFFFFFFF, 0xFF3C1F56],[0xFF00FFFF, 0xFFFFFFFF, 0xFF1542B7], [0xFF12FA05, 0xFFFFFFFF, 0xFF0A4447], [0xFFF9393F, 0xFFFFFFFF, 0xFF651038],
+			[0xFFffff00, 0xFFFFFFFF, 0xFF993300], [0xFF8b4aff, 0xFFFFFFFF, 0xFF3b177d], [0xFFff0000, 0xFFFFFFFF, 0xFF660000], [0xFF0033ff, 0xFFFFFFFF, 0xFF000066]],
+		[ [0xFFC24B99, 0xFFFFFFFF, 0xFF3C1F56],[0xFF00FFFF, 0xFFFFFFFF, 0xFF1542B7], [0xFF12FA05, 0xFFFFFFFF, 0xFF0A4447], [0xFFF9393F, 0xFFFFFFFF, 0xFF651038], [0xFFcccccc, 0xFFFFFFFF, 0xFF3e3e3e],
+			[0xFFffff00, 0xFFFFFFFF, 0xFF993300], [0xFF8b4aff, 0xFFFFFFFF, 0xFF3b177d], [0xFFff0000, 0xFFFFFFFF, 0xFF660000], [0xFF0033ff, 0xFFFFFFFF, 0xFF000066]],
+	];
+	public static final multikeyKeyArrays:Array<Dynamic> = [
+		[],
+		['note_7kSpace'],
+		['note_left', 'note_right'],
+		['note_left', 'note_7kSpace','note_right'],
+		['note_left', 'note_down', 'note_up', 'note_right'],
+		['note_left', 'note_down', 'note_7kSpace', 'note_up', 'note_right'],
+		['note_6k0','note_6k1','note_6k2','note_6k3','note_6k4','note_6k5'],
+		['note_6k0','note_6k1','note_6k2','note_7kSpace', 'note_6k3','note_6k4','note_6k5'],
+		['note_9k0', 'note_9k1', 'note_9k2', 'note_9k3', 'note_9k5', 'note_9k6', 'note_9k7', 'note_9k8'],
+		['note_9k0', 'note_9k1', 'note_9k2', 'note_9k3', 'note_9k4', 'note_9k5', 'note_9k6', 'note_9k7', 'note_9k8']
+	];
 
 	public static var ratingStuff:Array<Dynamic> = [
 		['You Suck!', 0.2], //From 0% to 19%
@@ -176,8 +266,11 @@ class PlayState extends MusicBeatState
 	public var health(default, set):Float = 1;
 	public var combo:Int = 0;
 
-	public var healthBar:Bar;
-	public var timeBar:Bar;
+	public var healthBar:HealthBar;
+	public var timeBoard:FlxSprite;
+	public var timeBoardNumbers:Array<FlxSprite> = [];
+	var timeBoardOffset:Float = 0;
+
 	var songPercent:Float = 0;
 
 	public var ratingsData:Array<Rating> = Rating.loadDefault();
@@ -287,12 +380,10 @@ class PlayState extends MusicBeatState
 		PauseSubState.songName = null; //Reset to default
 		playbackRate = ClientPrefs.getGameplaySetting('songspeed');
 
-		keysArray = [
-			'note_left',
-			'note_down',
-			'note_up',
-			'note_right'
-		];
+		PlayState.keyCount = 4;
+		if (SONG.keyCount != null) PlayState.keyCount = SONG.keyCount;
+
+		keysArray = PlayState.multikeyKeyArrays[PlayState.keyCount];
 
 		if(FlxG.sound.music != null)
 			FlxG.sound.music.stop();
@@ -488,13 +579,41 @@ class PlayState extends MusicBeatState
 		if(ClientPrefs.data.downScroll) timeTxt.y = FlxG.height - 44;
 		if(ClientPrefs.data.timeBarType == 'Song Name') timeTxt.text = SONG.song;
 
-		timeBar = new Bar(0, timeTxt.y + (timeTxt.height / 4), 'timeBar', function() return songPercent, 0, 1);
-		timeBar.scrollFactor.set();
-		timeBar.screenCenter(X);
-		timeBar.alpha = 0;
-		timeBar.visible = showTime;
-		uiGroup.add(timeBar);
-		uiGroup.add(timeTxt);
+		timeBoard = new FlxSprite().loadGraphic(Paths.image('ui/timer'));
+		timeBoard.scale.set(0.6, 0.6);
+		timeBoard.y = flipTimeBoardScroll ? (FlxG.height - 180) : 20;
+		timeBoard.screenCenter(X);
+		timeBoard.x += timeBoardOffset;
+		timeBoard.visible = updateTime = showTime;
+		uiGroup.add(timeBoard);
+		timeBoard.alpha = 0;
+
+		if (isStoryMode) {
+			var numPositions:Array<Array<Float>> = [
+				[0],
+				[0],
+				[-20, 20],
+				[-30, 0, 30],
+				[-23*1.5, -23*0.5, 23*0.5, 23*1.5]
+			];
+			var len = (storySongNum + storyPlaylist.length);
+			trace(len);
+			for (i in 0...len) {
+				var num = new FlxSprite(0, timeBoard.y + 50).loadGraphic(Paths.image("ui/Bubble" + (i+1)));
+				num.scale.set(0.6, 0.6); num.updateHitbox();
+				num.screenCenter(X);
+				num.alpha = 0;
+				num.x += timeBoardOffset;
+				num.x += numPositions[len][i];
+
+				if (i != storySongNum) {
+					num.color = 0xFF565656;
+				}
+
+				timeBoardNumbers.push(num);
+				uiGroup.add(num);
+			}
+		}
 
 		noteGroup.add(strumLineNotes);
 
@@ -526,23 +645,24 @@ class PlayState extends MusicBeatState
 		FlxG.worldBounds.set(0, 0, FlxG.width, FlxG.height);
 		moveCameraSection();
 
-		healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'healthBar', function() return health, 0, 2);
+		healthBar = new HealthBar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.77 : 0), 'ui/healthBar', function() return health, 0, 2);
 		healthBar.screenCenter(X);
 		healthBar.leftToRight = false;
 		healthBar.scrollFactor.set();
 		healthBar.visible = !ClientPrefs.data.hideHud;
 		healthBar.alpha = ClientPrefs.data.healthBarAlpha;
+		healthBar.scale.set(0.5, 0.5);
 		reloadHealthBarColors();
 		uiGroup.add(healthBar);
 
 		iconP1 = new HealthIcon(boyfriend.healthIcon, true);
-		iconP1.y = healthBar.y - 75;
+		iconP1.setPosition(healthBar.x + healthBar.width + -415,healthBar.y);
 		iconP1.visible = !ClientPrefs.data.hideHud;
 		iconP1.alpha = ClientPrefs.data.healthBarAlpha;
 		uiGroup.add(iconP1);
 
 		iconP2 = new HealthIcon(dad.healthIcon, false);
-		iconP2.y = healthBar.y - 75;
+		iconP2.setPosition(healthBar.x - iconP2.width - -415,healthBar.y);
 		iconP2.visible = !ClientPrefs.data.hideHud;
 		iconP2.alpha = ClientPrefs.data.healthBarAlpha;
 		uiGroup.add(iconP2);

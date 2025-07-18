@@ -28,6 +28,8 @@ typedef SwagSong =
 	
 	@:optional var disableNoteRGB:Bool;
 
+	@:optional var keyCount:Int;
+
 	@:optional var arrowSkin:String;
 	@:optional var splashSkin:String;
 }
@@ -63,6 +65,7 @@ class Song
 	public var player2:String = 'dad';
 	public var gfVersion:String = 'gf';
 	public var format:String = 'psych_v1';
+	public var keyCount:Int = 4;
 
 	public static function convert(songJson:Dynamic) // Convert old charts to psych_v1 format
 	{

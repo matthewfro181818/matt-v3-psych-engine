@@ -180,6 +180,8 @@ class PlayState extends MusicBeatState
 		['Perfect!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 
+	private var modchart:ModchartLoader;
+
 	//event variables
 	private var isCameraOnForcedPos:Bool = false;
 
@@ -317,6 +319,7 @@ class PlayState extends MusicBeatState
 	public static var deathCounter:Int = 0;
 
 	public var defaultCamZoom:Float = 1.05;
+	public var defaultHUDZoom:Float = 1.0;
 
 	// how big to stretch the pixel art assets
 	public static var daPixelZoom:Float = 6;
@@ -359,6 +362,8 @@ class PlayState extends MusicBeatState
 	// Callbacks for stages
 	public var startCallback:Void->Void = null;
 	public var endCallback:Void->Void = null;
+
+	public var sustainSplashSetting:Int = 0;
 
 	private static var _lastLoadedModDirectory:String = '';
 	public static var nextReloadAll:Bool = false;
@@ -1004,6 +1009,77 @@ class PlayState extends MusicBeatState
 		startAndEnd();
 		#end
 		return null;
+	}
+
+	var loadedMidSongVideos:Array<FlxVideoSprite> = [];
+	var midSongVideoPlayTimes:Array<Float> = [];
+	var midSongVideoCurrentTimes:Array<Float> = [];
+
+	public function preloadMidSongVideo(path:String, ?placeOnHUD:Bool = false)
+	{
+		var video = new FlxVideoSprite();
+		video.autoVolumeHandle = false;
+		video.bitmap.volume = 0;
+		video.antialiasing = ClientPrefs.data.antialiasing;
+		video.load(Paths.video(path));
+
+		if (FlxG.signals.focusGained.has(video.resume))
+			FlxG.signals.focusGained.remove(video.resume);
+		if (FlxG.signals.focusLost.has(video.pause))
+			FlxG.signals.focusLost.remove(video.pause);
+
+		new FlxTimer().start(0.001, function(tmr) {
+			video.play();
+			new FlxTimer().start(0.001, function(tmr) {
+				video.pause();
+			});
+		});
+		video.bitmap.onPlaying.add(function() {
+			trace("played: " + path);
+		});
+		loadedMidSongVideos.push(video);
+		midSongVideoPlayTimes.push(-1000);
+		midSongVideoCurrentTimes.push(0);
+		video.cameras = [placeOnHUD ? camHUD : camOther];
+		video.alpha = 0.001;
+		
+		insert(0, video);	
+	}
+
+	public function playMidSongVideo(?index:Int = 0)
+	{
+		var video = loadedMidSongVideos[index];
+		if (video == null) return;
+
+		//canPause = false;
+
+		if (video.autoPause)
+		{
+			if (!FlxG.signals.focusGained.has(video.resume))
+				FlxG.signals.focusGained.add(video.resume);
+
+			if (!FlxG.signals.focusLost.has(video.pause))
+				FlxG.signals.focusLost.add(video.pause);
+		}
+
+		midSongVideoPlayTimes[index] = Conductor.songPosition;
+		video.bitmap.time = 0;
+		video.play();
+		video.alpha = 1;
+		video.bitmap.rate = playbackRate;
+		video.bitmap.onEndReached.add(function()
+		{
+			video.visible = false;
+			//canPause = true;
+			video.destroy();
+			remove(video);
+			loadedMidSongVideos[index] = null;
+			return;
+		});
+
+		video.bitmap.onTimeChanged.add(function(time) {
+			midSongVideoCurrentTimes[index] = Std.parseFloat(Std.string(time)); //convert to float
+		});
 	}
 
 	function startAndEnd()

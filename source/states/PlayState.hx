@@ -37,6 +37,7 @@ import shaders.ErrorHandledShader;
 
 import objects.VideoSprite;
 import objects.Note.EventNote;
+import objects.StrumNote.SustainSplash;
 import objects.*;
 import objects.Bar as HealthBar;
 import states.stages.*;

@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				253,
+				-159
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "eteled idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				-105
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "eteled eft",
+			"indices": []
+		},
+		{
+			"offsets": [
+				80,
+				-134
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "eteled right"
+		},
+		{
+			"offsets": [
+				111,
+				-105
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "eteled up"
+		},
+		{
+			"offsets": [
+				127,
+				-176
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "eteled down"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/eteled",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "eteled",
+	"flip_x": false,
+	"healthbar_colors": [
+		235,
+		0,
+		0
+	],
+	"camera_position": [
+		-140,
+		190
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9,
+	"_editor_isPlayer": false
+}

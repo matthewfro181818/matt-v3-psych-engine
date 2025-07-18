@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				55,
+				69
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "DEATHloop"
+		},
+		{
+			"offsets": [
+				55,
+				69
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "DEATHconfirm"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				356,
+				651
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "DEATHstart",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/darnellmii-dead",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "darnell",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		180,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

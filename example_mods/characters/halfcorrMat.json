@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-36,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "halfcor idle"
+		},
+		{
+			"offsets": [
+				60,
+				-17
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "halfcor left note"
+		},
+		{
+			"offsets": [
+				-56,
+				-2
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "halfcor right note"
+		},
+		{
+			"offsets": [
+				-50,
+				16
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "halfcor up note"
+		},
+		{
+			"offsets": [
+				-11,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "halfcor down note"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/PH1corrupted",
+	"position": [
+		140,
+		180
+	],
+	"healthicon": "halfCorrupted",
+	"flip_x": false,
+	"healthbar_colors": [
+		25,
+		19,
+		44
+	],
+	"camera_position": [
+		-135,
+		65
+	],
+	"sing_duration": 4.69999999999999,
+	"scale": 1
+}

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="WhiteGlovesMatt.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Matt Down Anim0000" x="3" y="3" width="429" height="407" frameX="-4" frameY="-8" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="Matt Down Anim0001" x="434" y="3" width="429" height="407" frameX="-4" frameY="-8" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="Matt Down Anim0002" x="865" y="3" width="431" height="411" frameX="-2" frameY="-4" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="Matt Down Anim0003" x="1298" y="3" width="431" height="411" frameX="-2" frameY="-4" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="Matt Down Anim0004" x="1731" y="3" width="432" height="414" frameX="-1" frameY="-1" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="Matt Down Anim0005" x="2165" y="3" width="432" height="414" frameX="-1" frameY="-1" frameWidth="433" frameHeight="415"/>
+	<SubTexture name="Matt Down Anim0006" x="2599" y="3" width="433" height="415"/>
+	<SubTexture name="Matt Down Anim0007" x="3034" y="3" width="433" height="415"/>
+	<SubTexture name="Matt Down Anim0008" x="3469" y="3" width="433" height="415"/>
+	<SubTexture name="Matt Down Anim0009" x="3" y="420" width="433" height="415"/>
+	<SubTexture name="Matt Idle Anim0000" x="438" y="420" width="377" height="458"/>
+	<SubTexture name="Matt Idle Anim0001" x="817" y="420" width="377" height="458"/>
+	<SubTexture name="Matt Idle Anim0002" x="1196" y="420" width="375" height="458" frameX="-1" frameY="0" frameWidth="377" frameHeight="458"/>
+	<SubTexture name="Matt Idle Anim0003" x="1573" y="420" width="375" height="458" frameX="-1" frameY="0" frameWidth="377" frameHeight="458"/>
+	<SubTexture name="Matt Idle Anim0004" x="1950" y="420" width="371" height="458" frameX="-2" frameY="0" frameWidth="377" frameHeight="458"/>
+	<SubTexture name="Matt Idle Anim0005" x="2323" y="420" width="371" height="458" frameX="-2" frameY="0" frameWidth="377" frameHeight="458"/>
+	<SubTexture name="Matt Idle Anim0006" x="2696" y="420" width="367" height="457" frameX="-2" frameY="-1" frameWidth="377" frameHeight="458"/>
+	<SubTexture name="Matt Idle Anim0007" x="3065" y="420" width="367" height="457" frameX="-2" frameY="-1" frameWidth="377" frameHeight="458"/>
+	<SubTexture name="Matt Idle Anim0008" x="3434" y="420" width="365" height="457" frameX="-2" frameY="-1" frameWidth="377" frameHeight="458"/>
+	<SubTexture name="Matt Idle Anim0009" x="3" y="880" width="365" height="457" frameX="-2" frameY="-1" frameWidth="377" frameHeight="458"/>
+	<SubTexture name="Matt Idle Anim0010" x="370" y="880" width="365" height="457" frameX="-2" frameY="-1" frameWidth="377" frameHeight="458"/>
+	<SubTexture name="Matt Idle Anim0011" x="737" y="880" width="365" height="457" frameX="-2" frameY="-1" frameWidth="377" frameHeight="458"/>
+	<SubTexture name="Matt Idle Anim0012" x="1104" y="880" width="365" height="457" frameX="-2" frameY="-1" frameWidth="377" frameHeight="458"/>
+	<SubTexture name="Matt Left Anim0000" x="1471" y="880" width="410" height="455"/>
+	<SubTexture name="Matt Left Anim0001" x="1883" y="880" width="410" height="455"/>
+	<SubTexture name="Matt Left Anim0002" x="2295" y="880" width="403" height="455" frameX="-6" frameY="0" frameWidth="410" frameHeight="455"/>
+	<SubTexture name="Matt Left Anim0003" x="2700" y="880" width="403" height="455" frameX="-6" frameY="0" frameWidth="410" frameHeight="455"/>
+	<SubTexture name="Matt Left Anim0004" x="3105" y="880" width="401" height="455" frameX="-8" frameY="0" frameWidth="410" frameHeight="455"/>
+	<SubTexture name="Matt Left Anim0005" x="3508" y="880" width="401" height="455" frameX="-8" frameY="0" frameWidth="410" frameHeight="455"/>
+	<SubTexture name="Matt Left Anim0006" x="3" y="1339" width="401" height="455" frameX="-8" frameY="0" frameWidth="410" frameHeight="455"/>
+	<SubTexture name="Matt Left Anim0007" x="406" y="1339" width="401" height="455" frameX="-8" frameY="0" frameWidth="410" frameHeight="455"/>
+	<SubTexture name="Matt Left Anim0008" x="809" y="1339" width="401" height="455" frameX="-8" frameY="0" frameWidth="410" frameHeight="455"/>
+	<SubTexture name="Matt Left Anim0009" x="1212" y="1339" width="401" height="455" frameX="-8" frameY="0" frameWidth="410" frameHeight="455"/>
+	<SubTexture name="Matt Right Anim0000" x="1615" y="1339" width="442" height="438" frameX="0" frameY="-3" frameWidth="442" frameHeight="441"/>
+	<SubTexture name="Matt Right Anim0001" x="2059" y="1339" width="442" height="438" frameX="0" frameY="-3" frameWidth="442" frameHeight="441"/>
+	<SubTexture name="Matt Right Anim0002" x="2503" y="1339" width="436" height="440" frameX="0" frameY="-1" frameWidth="442" frameHeight="441"/>
+	<SubTexture name="Matt Right Anim0003" x="2941" y="1339" width="436" height="440" frameX="0" frameY="-1" frameWidth="442" frameHeight="441"/>
+	<SubTexture name="Matt Right Anim0004" x="3379" y="1339" width="433" height="441" frameX="0" frameY="0" frameWidth="442" frameHeight="441"/>
+	<SubTexture name="Matt Right Anim0005" x="3" y="1796" width="433" height="441" frameX="0" frameY="0" frameWidth="442" frameHeight="441"/>
+	<SubTexture name="Matt Right Anim0006" x="438" y="1796" width="433" height="441" frameX="0" frameY="0" frameWidth="442" frameHeight="441"/>
+	<SubTexture name="Matt Right Anim0007" x="873" y="1796" width="433" height="441" frameX="0" frameY="0" frameWidth="442" frameHeight="441"/>
+	<SubTexture name="Matt Right Anim0008" x="1308" y="1796" width="433" height="441" frameX="0" frameY="0" frameWidth="442" frameHeight="441"/>
+	<SubTexture name="Matt Right Anim0009" x="1743" y="1796" width="433" height="441" frameX="0" frameY="0" frameWidth="442" frameHeight="441"/>
+	<SubTexture name="Matt Up Anim0000" x="2178" y="1796" width="418" height="538" frameX="-3" frameY="0" frameWidth="421" frameHeight="538"/>
+	<SubTexture name="Matt Up Anim0001" x="2598" y="1796" width="418" height="538" frameX="-3" frameY="0" frameWidth="421" frameHeight="538"/>
+	<SubTexture name="Matt Up Anim0002" x="3018" y="1796" width="420" height="532" frameX="-1" frameY="-6" frameWidth="421" frameHeight="538"/>
+	<SubTexture name="Matt Up Anim0003" x="3440" y="1796" width="420" height="532" frameX="-1" frameY="-6" frameWidth="421" frameHeight="538"/>
+	<SubTexture name="Matt Up Anim0004" x="3" y="2336" width="420" height="528" frameX="0" frameY="-10" frameWidth="421" frameHeight="538"/>
+	<SubTexture name="Matt Up Anim0005" x="425" y="2336" width="420" height="528" frameX="0" frameY="-10" frameWidth="421" frameHeight="538"/>
+	<SubTexture name="Matt Up Anim0006" x="847" y="2336" width="420" height="528" frameX="0" frameY="-10" frameWidth="421" frameHeight="538"/>
+	<SubTexture name="Matt Up Anim0007" x="1269" y="2336" width="420" height="528" frameX="0" frameY="-10" frameWidth="421" frameHeight="538"/>
+	<SubTexture name="Matt Up Anim0008" x="1691" y="2336" width="420" height="528" frameX="0" frameY="-10" frameWidth="421" frameHeight="538"/>
+	<SubTexture name="Matt Up Anim0009" x="2113" y="2336" width="420" height="528" frameX="0" frameY="-10" frameWidth="421" frameHeight="538"/>
+</TextureAtlas>

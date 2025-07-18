@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="wggf.png" width="6058" height="550" spritePadding="3" borderPadding="1">
+	<SubTexture name="gfDancingBeat0000" x="716" y="1" width="300" height="539" frameX="-7" frameY="-8" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0001" x="1019" y="1" width="293" height="539" frameX="-2" frameY="-8" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0002" x="1019" y="1" width="293" height="539" frameX="-2" frameY="-8" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0003" x="1617" y="1" width="285" height="544" frameX="0" frameY="-4" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0004" x="1617" y="1" width="285" height="544" frameX="0" frameY="-4" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0005" x="3112" y="1" width="280" height="548" frameX="-3" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0006" x="3112" y="1" width="280" height="548" frameX="-3" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0007" x="3395" y="1" width="288" height="548" frameX="-14" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0008" x="3686" y="1" width="288" height="548" frameX="-14" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0009" x="3977" y="1" width="293" height="548" frameX="-17" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0010" x="3977" y="1" width="293" height="548" frameX="-17" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0011" x="4273" y="1" width="295" height="548" frameX="-18" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0012" x="4571" y="1" width="295" height="548" frameX="-18" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0013" x="2209" y="1" width="294" height="547" frameX="-17" frameY="-1" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0014" x="131" y="1" width="286" height="535" frameX="-26" frameY="-12" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0015" x="420" y="1" width="293" height="535" frameX="-34" frameY="-12" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0016" x="420" y="1" width="293" height="535" frameX="-34" frameY="-12" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0017" x="1315" y="1" width="299" height="540" frameX="-33" frameY="-8" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0018" x="1315" y="1" width="299" height="540" frameX="-33" frameY="-8" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0019" x="1905" y="1" width="301" height="544" frameX="-27" frameY="-4" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0020" x="1905" y="1" width="301" height="544" frameX="-27" frameY="-4" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0021" x="2506" y="1" width="300" height="547" frameX="-25" frameY="-1" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0022" x="2809" y="1" width="300" height="547" frameX="-25" frameY="-1" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0023" x="4869" y="1" width="295" height="548" frameX="-21" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0024" x="4869" y="1" width="295" height="548" frameX="-21" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0025" x="5167" y="1" width="295" height="548" frameX="-18" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0026" x="5465" y="1" width="295" height="548" frameX="-18" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="gfDancingBeat0027" x="5763" y="1" width="294" height="548" frameX="-15" frameY="0" frameWidth="301" frameHeight="548"/>
+	<SubTexture name="sans(ignore)0000" x="1" y="1" width="127" height="180" frameX="0" frameY="0" frameWidth="127" frameHeight="180"/>
+</TextureAtlas>

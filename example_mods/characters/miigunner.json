@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				103,
+				-244
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "gunner_idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				152,
+				-227
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "gunner_left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				108,
+				-208
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "gunner_up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				74,
+				-275
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "gunner_right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				114,
+				-282
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "gunner_down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/miigunner",
+	"position": [
+		10,
+		-20
+	],
+	"healthicon": "gunner",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		120,
+		255
+	],
+	"camera_position": [
+		-100,
+		320
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

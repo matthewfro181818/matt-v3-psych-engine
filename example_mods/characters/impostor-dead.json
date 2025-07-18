@@ -1,0 +1,66 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				92,
+				-128
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "DEATHstart"
+		},
+		{
+			"offsets": [
+				-233,
+				-146
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "DEATHloop"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-233,
+				-146
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "DEATHconfirm",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/impostor_assets_dead",
+	"position": [
+		-30,
+		290
+	],
+	"healthicon": "impostor",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		51,
+		51
+	],
+	"camera_position": [
+		-320,
+		250
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

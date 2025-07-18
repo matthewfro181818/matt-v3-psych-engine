@@ -1,0 +1,221 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-3,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "BF HEY"
+		},
+		{
+			"offsets": [
+				15,
+				18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hurt",
+			"indices": [],
+			"name": "BF hit"
+		},
+		{
+			"offsets": [
+				-4,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "scared",
+			"indices": [],
+			"name": "BF idle shaking"
+		},
+		{
+			"offsets": [
+				-10,
+				-16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodge",
+			"indices": [],
+			"name": "boyfriend dodge"
+		},
+		{
+			"offsets": [
+				294,
+				267
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "boyfriend attack"
+		},
+		{
+			"offsets": [
+				-40,
+				-40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "pre-attack",
+			"indices": [],
+			"name": "bf pre attack"
+		},
+		{
+			"offsets": [
+				154,
+				302
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "pompom death confirm"
+		},
+		{
+			"offsets": [
+				-68,
+				183
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "pompom right note"
+		},
+		{
+			"offsets": [
+				-59,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "pompom up note"
+		},
+		{
+			"offsets": [
+				40,
+				111
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "pompom down note"
+		},
+		{
+			"offsets": [
+				-35,
+				147
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "pompom left note"
+		},
+		{
+			"offsets": [
+				-65,
+				153
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "pompom dance left"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				50,
+				201
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "pompom death loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				46,
+				197
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "pompom dies",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-43,
+				149
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "pompom left miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				121
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "pompom down miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-72,
+				140
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "pompom up miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-71,
+				182
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "pompom right miss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pompomtraining_assets",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		0,
+		-130
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

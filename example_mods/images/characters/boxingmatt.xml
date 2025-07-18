@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="boxingmatt.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="boxing matt down note0000" x="10" y="10" width="342" height="336" frameX="-1" frameY="-36" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0001" x="10" y="10" width="342" height="336" frameX="-1" frameY="-36" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0002" x="372" y="10" width="343" height="339" frameX="0" frameY="-33" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0003" x="372" y="10" width="343" height="339" frameX="0" frameY="-33" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0004" x="735" y="10" width="340" height="355" frameX="-3" frameY="-17" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0005" x="735" y="10" width="340" height="355" frameX="-3" frameY="-17" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0006" x="1095" y="10" width="338" height="362" frameX="-5" frameY="-10" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0007" x="1095" y="10" width="338" height="362" frameX="-5" frameY="-10" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0008" x="1453" y="10" width="336" height="368" frameX="-6" frameY="-4" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0009" x="1453" y="10" width="336" height="368" frameX="-6" frameY="-4" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0010" x="1809" y="10" width="334" height="371" frameX="-7" frameY="-1" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0011" x="1809" y="10" width="334" height="371" frameX="-7" frameY="-1" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0012" x="2163" y="10" width="334" height="372" frameX="-8" frameY="0" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt down note0013" x="2163" y="10" width="334" height="372" frameX="-8" frameY="0" frameWidth="343" frameHeight="372"/>
+	<SubTexture name="boxing matt right note 0000" x="2517" y="10" width="484" height="414" frameX="-21" frameY="0" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0001" x="2517" y="10" width="484" height="414" frameX="-21" frameY="0" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0002" x="3021" y="10" width="473" height="413" frameX="-26" frameY="-1" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0003" x="3021" y="10" width="473" height="413" frameX="-26" frameY="-1" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0004" x="3514" y="10" width="455" height="411" frameX="-19" frameY="-3" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0005" x="3514" y="10" width="455" height="411" frameX="-19" frameY="-3" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0006" x="10" y="444" width="455" height="410" frameX="-10" frameY="-4" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0007" x="10" y="444" width="455" height="410" frameX="-10" frameY="-4" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0008" x="485" y="444" width="456" height="408" frameX="-3" frameY="-6" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0009" x="485" y="444" width="456" height="408" frameX="-3" frameY="-6" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0010" x="961" y="444" width="456" height="408" frameX="-1" frameY="-6" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0011" x="961" y="444" width="456" height="408" frameX="-1" frameY="-6" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0012" x="1437" y="444" width="457" height="407" frameX="0" frameY="-7" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="boxing matt right note 0013" x="1437" y="444" width="457" height="407" frameX="0" frameY="-7" frameWidth="505" frameHeight="414"/>
+	<SubTexture name="matt idle0000" x="1914" y="444" width="280" height="447" frameX="0" frameY="-16" frameWidth="280" frameHeight="463"/>
+	<SubTexture name="matt idle0001" x="1914" y="444" width="280" height="447" frameX="0" frameY="-16" frameWidth="280" frameHeight="463"/>
+	<SubTexture name="matt idle0002" x="2214" y="444" width="280" height="449" frameX="0" frameY="-14" frameWidth="280" frameHeight="463"/>
+	<SubTexture name="matt idle0003" x="2214" y="444" width="280" height="449" frameX="0" frameY="-14" frameWidth="280" frameHeight="463"/>
+	<SubTexture name="matt idle0004" x="2514" y="444" width="280" height="459" frameX="0" frameY="-4" frameWidth="280" frameHeight="463"/>
+	<SubTexture name="matt idle0005" x="2514" y="444" width="280" height="459" frameX="0" frameY="-4" frameWidth="280" frameHeight="463"/>
+	<SubTexture name="matt idle0006" x="2814" y="444" width="280" height="462" frameX="0" frameY="-1" frameWidth="280" frameHeight="463"/>
+	<SubTexture name="matt idle0007" x="2814" y="444" width="280" height="462" frameX="0" frameY="-1" frameWidth="280" frameHeight="463"/>
+	<SubTexture name="matt idle0008" x="3114" y="444" width="280" height="463"/>
+	<SubTexture name="matt idle0009" x="3114" y="444" width="280" height="463"/>
+	<SubTexture name="matt idle0010" x="3414" y="444" width="280" height="463"/>
+	<SubTexture name="matt idle0011" x="3414" y="444" width="280" height="463"/>
+	<SubTexture name="matt idle0012" x="3414" y="444" width="280" height="463"/>
+	<SubTexture name="matt idle0013" x="3714" y="444" width="280" height="458" frameX="0" frameY="-5" frameWidth="280" frameHeight="463"/>
+	<SubTexture name="matt left note0000" x="10" y="927" width="266" height="431" frameX="-3" frameY="-1" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0001" x="10" y="927" width="266" height="431" frameX="-3" frameY="-1" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0002" x="296" y="927" width="272" height="430" frameX="0" frameY="-2" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0003" x="296" y="927" width="272" height="430" frameX="0" frameY="-2" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0004" x="588" y="927" width="271" height="432" frameX="-10" frameY="0" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0005" x="588" y="927" width="271" height="432" frameX="-10" frameY="0" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0006" x="879" y="927" width="273" height="432" frameX="-11" frameY="0" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0007" x="879" y="927" width="273" height="432" frameX="-11" frameY="0" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0008" x="1172" y="927" width="274" height="432" frameX="-11" frameY="0" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0009" x="1172" y="927" width="274" height="432" frameX="-11" frameY="0" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0010" x="1466" y="927" width="275" height="432" frameX="-11" frameY="0" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0011" x="1466" y="927" width="275" height="432" frameX="-11" frameY="0" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0012" x="1761" y="927" width="275" height="431" frameX="-11" frameY="-1" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt left note0013" x="1761" y="927" width="275" height="431" frameX="-11" frameY="-1" frameWidth="286" frameHeight="432"/>
+	<SubTexture name="matt up note0000" x="2056" y="927" width="379" height="522" frameX="-13" frameY="0" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0001" x="2056" y="927" width="379" height="522" frameX="-13" frameY="0" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0002" x="2455" y="927" width="377" height="517" frameX="-17" frameY="-5" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0003" x="2455" y="927" width="377" height="517" frameX="-17" frameY="-5" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0004" x="2852" y="927" width="391" height="505" frameX="-7" frameY="-17" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0005" x="2852" y="927" width="391" height="505" frameX="-7" frameY="-17" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0006" x="3263" y="927" width="400" height="497" frameX="-2" frameY="-25" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0007" x="3263" y="927" width="400" height="497" frameX="-2" frameY="-25" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0008" x="3683" y="927" width="399" height="493" frameX="-1" frameY="-29" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0009" x="3683" y="927" width="399" height="493" frameX="-1" frameY="-29" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0010" x="10" y="1469" width="399" height="491" frameX="0" frameY="-31" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0011" x="10" y="1469" width="399" height="491" frameX="0" frameY="-31" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0012" x="429" y="1469" width="399" height="491" frameX="0" frameY="-31" frameWidth="402" frameHeight="522"/>
+	<SubTexture name="matt up note0013" x="429" y="1469" width="399" height="491" frameX="0" frameY="-31" frameWidth="402" frameHeight="522"/>
+</TextureAtlas>

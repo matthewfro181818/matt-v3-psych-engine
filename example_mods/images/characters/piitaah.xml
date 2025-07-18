@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="piitaah.png" width="2518" height="1878" spritePadding="3" borderPadding="1">
+	<SubTexture name="piitaah idle0000" x="375" y="1" width="365" height="577" frameX="-131" frameY="-90" frameWidth="375" frameHeight="610"/>
+	<SubTexture name="piitaah idle0001" x="375" y="1" width="365" height="577" frameX="-131" frameY="-90" frameWidth="375" frameHeight="610"/>
+	<SubTexture name="piitaah idle0002" x="743" y="1" width="351" height="587" frameX="-136" frameY="-80" frameWidth="375" frameHeight="610"/>
+	<SubTexture name="piitaah idle0003" x="743" y="1" width="351" height="587" frameX="-136" frameY="-80" frameWidth="375" frameHeight="610"/>
+	<SubTexture name="piitaah idle0004" x="1097" y="1" width="353" height="594" frameX="-132" frameY="-73" frameWidth="375" frameHeight="610"/>
+	<SubTexture name="piitaah idle0005" x="1453" y="1" width="352" height="597" frameX="-131" frameY="-70" frameWidth="375" frameHeight="610"/>
+	<SubTexture name="piitaah idle0006" x="1453" y="1" width="352" height="597" frameX="-131" frameY="-70" frameWidth="375" frameHeight="610"/>
+	<SubTexture name="piitaah idle0007" x="1808" y="1" width="353" height="600" frameX="-130" frameY="-67" frameWidth="375" frameHeight="610"/>
+	<SubTexture name="piitaah idle0008" x="1808" y="1" width="353" height="600" frameX="-130" frameY="-67" frameWidth="375" frameHeight="610"/>
+	<SubTexture name="piitaah idle0009" x="1808" y="1" width="353" height="600" frameX="-130" frameY="-67" frameWidth="375" frameHeight="610"/>
+	<SubTexture name="piitaah idle0010" x="2164" y="1" width="353" height="599" frameX="-130" frameY="-68" frameWidth="375" frameHeight="610"/>
+	<SubTexture name="piitaah left0000" x="1" y="622" width="443" height="580" frameX="-52" frameY="-87" frameWidth="453" frameHeight="601"/>
+	<SubTexture name="piitaah left0001" x="1" y="622" width="443" height="580" frameX="-52" frameY="-87" frameWidth="453" frameHeight="601"/>
+	<SubTexture name="piitaah left0002" x="447" y="622" width="427" height="584" frameX="-66" frameY="-83" frameWidth="453" frameHeight="601"/>
+	<SubTexture name="piitaah left0003" x="447" y="622" width="427" height="584" frameX="-66" frameY="-83" frameWidth="453" frameHeight="601"/>
+	<SubTexture name="piitaah left0004" x="877" y="622" width="413" height="589" frameX="-76" frameY="-78" frameWidth="453" frameHeight="601"/>
+	<SubTexture name="piitaah left0005" x="877" y="622" width="413" height="589" frameX="-76" frameY="-78" frameWidth="453" frameHeight="601"/>
+	<SubTexture name="piitaah left0006" x="1293" y="622" width="405" height="591" frameX="-82" frameY="-76" frameWidth="453" frameHeight="601"/>
+	<SubTexture name="piitaah down0000" x="1" y="1" width="371" height="618" rotated="true" frameX="-7" frameY="-372" frameWidth="628" frameHeight="381"/>
+	<SubTexture name="piitaah up0000" x="778" y="1216" width="422" height="661" frameX="-88" frameY="-7" frameWidth="442" frameHeight="671"/>
+	<SubTexture name="piitaah up0001" x="778" y="1216" width="422" height="661" frameX="-88" frameY="-7" frameWidth="442" frameHeight="671"/>
+	<SubTexture name="piitaah up0002" x="1203" y="1216" width="428" height="648" frameX="-83" frameY="-20" frameWidth="442" frameHeight="671"/>
+	<SubTexture name="piitaah up0003" x="1203" y="1216" width="428" height="648" frameX="-83" frameY="-20" frameWidth="442" frameHeight="671"/>
+	<SubTexture name="piitaah up0004" x="1634" y="1216" width="432" height="638" frameX="-81" frameY="-30" frameWidth="442" frameHeight="671"/>
+	<SubTexture name="piitaah up0005" x="1634" y="1216" width="432" height="638" frameX="-81" frameY="-30" frameWidth="442" frameHeight="671"/>
+	<SubTexture name="piitaah up0006" x="2069" y="1216" width="432" height="634" frameX="-80" frameY="-34" frameWidth="442" frameHeight="671"/>
+	<SubTexture name="piitaah right0000" x="1701" y="622" width="405" height="580" frameX="-146" frameY="-87" frameWidth="415" frameHeight="602"/>
+	<SubTexture name="piitaah right0001" x="1701" y="622" width="405" height="580" frameX="-146" frameY="-87" frameWidth="415" frameHeight="602"/>
+	<SubTexture name="piitaah right0002" x="2109" y="622" width="389" height="589" frameX="-147" frameY="-78" frameWidth="415" frameHeight="602"/>
+	<SubTexture name="piitaah right0003" x="2109" y="622" width="389" height="589" frameX="-147" frameY="-78" frameWidth="415" frameHeight="602"/>
+	<SubTexture name="piitaah right0004" x="1" y="1216" width="386" height="591" frameX="-145" frameY="-76" frameWidth="415" frameHeight="602"/>
+	<SubTexture name="piitaah right0005" x="1" y="1216" width="386" height="591" frameX="-145" frameY="-76" frameWidth="415" frameHeight="602"/>
+	<SubTexture name="piitaah right0006" x="390" y="1216" width="385" height="592" frameX="-143" frameY="-75" frameWidth="415" frameHeight="602"/>
+</TextureAtlas>

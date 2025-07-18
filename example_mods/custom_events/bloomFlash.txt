@@ -1,0 +1,4 @@
+High bloom flash, could be good in place of full on flashes as it isn't as blinding lmao
+
+Value 1: Duration (in curStep)
+Value 2: leave empty

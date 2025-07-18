@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				30
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "DARNELLidle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				111,
+				-45
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "DARNELLdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				74
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "DARNELLup",
+			"indices": []
+		},
+		{
+			"offsets": [
+				130,
+				12
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "DARNELLright"
+		},
+		{
+			"offsets": [
+				-1,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "DARNELLleft"
+		},
+		{
+			"offsets": [
+				141,
+				-87
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "MISSdown"
+		},
+		{
+			"offsets": [
+				-12,
+				45
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "MISSleft"
+		},
+		{
+			"offsets": [
+				111,
+				12
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "MISSright"
+		},
+		{
+			"offsets": [
+				18,
+				85
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "MISSup"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/darnellmii",
+	"position": [
+		10,
+		300
+	],
+	"healthicon": "darnell",
+	"flip_x": false,
+	"healthbar_colors": [
+		114,
+		94,
+		176
+	],
+	"camera_position": [
+		180,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

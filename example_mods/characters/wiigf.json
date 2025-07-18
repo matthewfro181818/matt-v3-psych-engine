@@ -1,0 +1,65 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-27,
+				-293
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"name": "danceLEFT"
+		},
+		{
+			"offsets": [
+				-27,
+				-293
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"name": "danceRIGHT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				-319
+			],
+			"fps": 24,
+			"anim": "sad",
+			"name": "sad"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				54,
+				-278
+			],
+			"fps": 24,
+			"anim": "cheer",
+			"name": "cheer"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/GFREVOLUTION",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-113,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "DEATHstart"
+		},
+		{
+			"offsets": [
+				-113,
+				-9
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "DEATHloop"
+		},
+		{
+			"offsets": [
+				-113,
+				-18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "DEATHconfirm"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/piico-dead",
+	"position": [
+		-30,
+		290
+	],
+	"healthicon": "pico",
+	"flip_x": true,
+	"healthbar_colors": [
+		183,
+		216,
+		125
+	],
+	"camera_position": [
+		10,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

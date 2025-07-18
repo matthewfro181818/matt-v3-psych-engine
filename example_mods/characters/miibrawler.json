@@ -1,0 +1,102 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				136,
+				-212
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Brawler_idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				136,
+				-258
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Brawler_down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				267,
+				-196
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Brawler_left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				190,
+				-192
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Brawler_up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				132,
+				-227
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Brawler_right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				270,
+				-196
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "prep",
+			"indices": [],
+			"name": "brawlerPrep"
+		},
+		{
+			"offsets": [
+				259,
+				-223
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "throw",
+			"indices": [],
+			"name": "brawlerThrow"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/mii_brawler",
+	"position": [
+		150,
+		30
+	],
+	"healthicon": "brawler",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		80,
+		80
+	],
+	"camera_position": [
+		-60,
+		310
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9,
+	"_editor_isPlayer": false
+}

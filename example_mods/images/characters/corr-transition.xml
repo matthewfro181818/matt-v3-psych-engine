@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="uno dos tres cuatro.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="1, 2, 3, 40000" x="0" y="0" width="282" height="554" frameX="-85" frameY="-75" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40001" x="282" y="0" width="282" height="554" frameX="-85" frameY="-75" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40002" x="564" y="0" width="296" height="558" frameX="-85" frameY="-71" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40003" x="860" y="0" width="296" height="558" frameX="-85" frameY="-71" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40004" x="1156" y="0" width="295" height="562" frameX="-87" frameY="-67" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40005" x="1451" y="0" width="295" height="562" frameX="-87" frameY="-67" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40006" x="1746" y="0" width="279" height="567" frameX="-111" frameY="-62" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40007" x="2025" y="0" width="279" height="567" frameX="-111" frameY="-62" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40008" x="2304" y="0" width="405" height="541" frameX="-165" frameY="-88" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40009" x="2304" y="0" width="405" height="541" frameX="-165" frameY="-88" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40010" x="2709" y="0" width="390" height="545" frameX="-146" frameY="-84" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40011" x="3099" y="0" width="390" height="545" frameX="-146" frameY="-84" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40012" x="3489" y="0" width="390" height="548" frameX="-141" frameY="-81" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40013" x="3489" y="0" width="390" height="548" frameX="-141" frameY="-81" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40014" x="0" y="567" width="390" height="548" frameX="-141" frameY="-81" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40015" x="390" y="567" width="340" height="570" frameX="-129" frameY="-59" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40016" x="390" y="567" width="340" height="570" frameX="-129" frameY="-59" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40017" x="730" y="567" width="274" height="628" frameX="-105" frameY="0" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40018" x="730" y="567" width="274" height="628" frameX="-105" frameY="0" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40019" x="1004" y="567" width="311" height="624" frameX="-79" frameY="-4" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40020" x="1004" y="567" width="311" height="624" frameX="-79" frameY="-4" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40021" x="1315" y="567" width="314" height="616" frameX="-83" frameY="-12" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40022" x="1629" y="567" width="314" height="616" frameX="-83" frameY="-12" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40023" x="1943" y="567" width="316" height="615" frameX="-82" frameY="-13" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40024" x="2259" y="567" width="325" height="608" frameX="-85" frameY="-20" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40025" x="2259" y="567" width="325" height="608" frameX="-85" frameY="-20" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40026" x="2584" y="567" width="504" height="531" frameX="-19" frameY="-161" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40027" x="2584" y="567" width="504" height="531" frameX="-19" frameY="-161" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40028" x="3088" y="567" width="482" height="519" frameX="-1" frameY="-173" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40029" x="3088" y="567" width="482" height="519" frameX="-1" frameY="-173" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40030" x="3570" y="567" width="476" height="521" frameX="0" frameY="-171" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40031" x="3570" y="567" width="476" height="521" frameX="0" frameY="-171" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40032" x="3570" y="567" width="476" height="521" frameX="0" frameY="-171" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40033" x="3570" y="567" width="476" height="521" frameX="0" frameY="-171" frameWidth="570" frameHeight="692"/>
+	<SubTexture name="1, 2, 3, 40034" x="3570" y="567" width="476" height="521" frameX="0" frameY="-171" frameWidth="570" frameHeight="692"/>
+</TextureAtlas>

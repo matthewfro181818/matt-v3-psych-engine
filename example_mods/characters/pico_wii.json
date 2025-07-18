@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "PICOidle"
+		},
+		{
+			"offsets": [
+				301,
+				-49
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "PICOleft"
+		},
+		{
+			"offsets": [
+				-70,
+				-28
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "PICOdown"
+		},
+		{
+			"offsets": [
+				-66,
+				17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "PICOup"
+		},
+		{
+			"offsets": [
+				78,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "PICOright"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				65,
+				-52
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "MISSleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-117,
+				-84
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "MISSdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-112,
+				41
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "MISSup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				-32
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "MISSright",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/pico wii lmao",
+	"position": [
+		-40,
+		290
+	],
+	"healthicon": "pico",
+	"flip_x": true,
+	"healthbar_colors": [
+		183,
+		216,
+		85
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

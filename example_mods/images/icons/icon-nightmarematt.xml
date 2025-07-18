@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon-nightmareMATT.png">
+	<!-- Created with Adobe Animate version 24.0.1.329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="losing0000" x="60" y="60" width="159" height="121" frameX="-8" frameY="-13" frameWidth="167" frameHeight="138"/>
+	<SubTexture name="losing0001" x="279" y="60" width="159" height="124" frameX="-8" frameY="-14" frameWidth="167" frameHeight="138"/>
+	<SubTexture name="losing0002" x="498" y="60" width="159" height="120" frameX="-6" frameY="-13" frameWidth="167" frameHeight="138"/>
+	<SubTexture name="losing0003" x="717" y="60" width="159" height="121" frameX="-8" frameY="-13" frameWidth="167" frameHeight="138"/>
+	<SubTexture name="losing0004" x="60" y="244" width="160" height="130" frameX="-7" frameY="-8" frameWidth="167" frameHeight="138"/>
+	<SubTexture name="losing0005" x="280" y="244" width="155" height="131" frameX="-10" frameY="-2" frameWidth="167" frameHeight="138"/>
+	<SubTexture name="losing0006" x="495" y="244" width="167" height="134" frameX="0" frameY="0" frameWidth="167" frameHeight="138"/>
+	<SubTexture name="losing0007" x="722" y="244" width="167" height="124" frameX="0" frameY="-14" frameWidth="167" frameHeight="138"/>
+	<SubTexture name="losing0008" x="60" y="438" width="160" height="120" frameX="-5" frameY="-13" frameWidth="167" frameHeight="138"/>
+	<SubTexture name="default0000" x="280" y="438" width="90" height="103"/>
+	<SubTexture name="default0001" x="280" y="438" width="90" height="103"/>
+	<SubTexture name="default0002" x="280" y="438" width="90" height="103"/>
+	<SubTexture name="default0003" x="430" y="438" width="90" height="103"/>
+	<SubTexture name="default0004" x="430" y="438" width="90" height="103"/>
+	<SubTexture name="default0005" x="430" y="438" width="90" height="103"/>
+	<SubTexture name="default0006" x="580" y="438" width="90" height="103"/>
+	<SubTexture name="default0007" x="580" y="438" width="90" height="103"/>
+	<SubTexture name="default0008" x="580" y="438" width="90" height="103"/>
+</TextureAtlas>

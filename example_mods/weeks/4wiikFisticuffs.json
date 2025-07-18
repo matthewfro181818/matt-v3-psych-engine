@@ -1,0 +1,59 @@
+{
+	"storyName": "Friday Night Fisticuffs",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Paper Cut",
+			"sketchy",
+			[
+				217,
+				217,
+				217
+			]
+		],
+		[
+			"Sussy Qussy",
+			"impostor",
+			[
+				224,
+				58,
+				58
+			]
+		],
+		[
+			"Basket Match",
+			"hex",
+			[
+				255,
+				171,
+				122
+			]
+		],
+		[
+			"Funkadelic",
+			"nikku",
+			[
+				244,
+				58,
+				118
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Friday Night Fisticuffs",
+	"hiddenUntilUnlocked": false
+}

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Smash Bros Death Explosion.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Smash Bros Death Exploison instance 10000" x="10" y="10" width="804" height="520" frameX="-280" frameY="-13" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10001" x="824" y="10" width="2481" height="527" frameX="-158" frameY="-13" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10002" x="3315" y="10" width="3658" height="552" frameX="-50" frameY="-12" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10003" x="10" y="572" width="3098" height="554" frameX="-180" frameY="-12" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10004" x="3118" y="572" width="2811" height="543" frameX="0" frameY="-25" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10005" x="10" y="1136" width="3615" height="535" frameX="-174" frameY="-25" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10006" x="3635" y="1136" width="3150" height="547" frameX="-276" frameY="-13" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10007" x="10" y="1693" width="3102" height="541" frameX="-281" frameY="-11" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10008" x="3122" y="1693" width="2803" height="544" frameX="-275" frameY="-5" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10009" x="10" y="2247" width="2338" height="529" frameX="-280" frameY="0" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10010" x="2358" y="2247" width="2464" height="523" frameX="-280" frameY="-6" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10011" x="4832" y="2247" width="2503" height="523" frameX="-281" frameY="-6" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10012" x="10" y="2786" width="2032" height="484" frameX="-281" frameY="-12" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10013" x="2052" y="2786" width="2074" height="446" frameX="-281" frameY="-13" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10014" x="4136" y="2786" width="1660" height="382" frameX="-285" frameY="-91" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10015" x="5806" y="2786" width="1730" height="308" frameX="-281" frameY="-140" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10016" x="7546" y="2786" width="154" height="54" frameX="-1894" frameY="-392" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10017" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107374987" frameY="-107374030" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10018" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107374987" frameY="-107374030" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10019" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107375006" frameY="-107374049" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10020" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107375006" frameY="-107374049" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10021" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107375006" frameY="-107374049" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10022" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107375006" frameY="-107374049" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10023" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107375006" frameY="-107374049" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10024" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107375006" frameY="-107374049" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10025" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107375006" frameY="-107374049" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10026" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107375006" frameY="-107374049" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10027" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107375006" frameY="-107374049" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10028" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107375006" frameY="-107374049" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10029" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107375006" frameY="-107374049" frameWidth="3789" frameHeight="568"/>
+	<SubTexture name="Smash Bros Death Exploison instance 10030" x="7710" y="2786" width="-214748317" height="-214748317" frameX="-107375006" frameY="-107374049" frameWidth="3789" frameHeight="568"/>
+</TextureAtlas>

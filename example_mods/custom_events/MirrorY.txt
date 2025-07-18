@@ -1,0 +1,4 @@
+Move mirrorRepeat Y Position
+
+Value 1: Y Value (Negative goes up, positive goes down)
+Value 2: Duration (in curStep)

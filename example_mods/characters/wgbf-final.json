@@ -1,0 +1,157 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				283,
+				372
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF/idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				421,
+				386
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF/left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				382,
+				475
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BF/up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				344,
+				424
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF/right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				270,
+				345
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BF/down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				395,
+				385
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "BF/missl",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				397,
+				420
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "BF/missr",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				389,
+				464
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "BF/missu",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				275,
+				320
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "BF/missd",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-110,
+				19
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "BF/deathStart"
+		},
+		{
+			"offsets": [
+				-110,
+				19
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "BF/deathLoop"
+		},
+		{
+			"offsets": [
+				-109,
+				20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"loop": false,
+			"name": "BF/deathConfirm"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/wgbf-final",
+	"position": [
+		160,
+		300
+	],
+	"healthicon": "wgbf",
+	"flip_x": true,
+	"healthbar_colors": [
+		57,
+		152,
+		190
+	],
+	"camera_position": [
+		150,
+		50
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

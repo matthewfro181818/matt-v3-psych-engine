@@ -1,0 +1,50 @@
+{
+	"storyName": "Wii Funkin' Stupid Alts",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Broadcasting",
+			"nikku",
+			[
+				244,
+				58,
+				118
+			]
+		],
+		[
+			"Foulplay",
+			"nightmarematt",
+			[
+				252,
+				142,
+				58
+			]
+		],
+		[
+			"Destiny",
+			"halfCorrupted",
+			[
+				252,
+				142,
+				58
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Stupid Alts"
+}

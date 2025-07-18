@@ -1,0 +1,122 @@
+{
+	"storyName": "Wii Funkin' Bonus Songs",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Been Patient",
+			"matt",
+			[
+				252,
+				142,
+				58
+			]
+		],
+		[
+			"Fired Up",
+			"fit-trainer",
+			[
+				252,
+				142,
+				58
+			]
+		],
+		[
+			"Mii Funkin",
+			"miifunkin",
+			[
+				252,
+				142,
+				58
+			]
+		],
+		[
+			"Revolution",
+			"revMatt",
+			[
+				252,
+				142,
+				58
+			]
+		],
+		[
+			"3hot",
+			"wiipic",
+			[
+				252,
+				142,
+				58
+			]
+		],
+		[
+			"4hot",
+			"darnell",
+			[
+				252,
+				142,
+				58
+			]
+		],
+		[
+			"five hot",
+			"darnell",
+			[
+				252,
+				142,
+				58
+			]
+		],
+		[
+			"Swap!",
+			"nikki",
+			[
+				252,
+				142,
+				58
+			]
+		],
+		[
+			"Battlefield",
+			"sword",
+			[
+				252,
+				142,
+				58
+			]
+		],
+		[
+			"Motion Control",
+			"eteled",
+			[
+				252,
+				142,
+				58
+			]
+		],
+		[
+			"Miisacre",
+			"ninja",
+			[
+				252,
+				142,
+				58
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Wiik Bonus"
+}

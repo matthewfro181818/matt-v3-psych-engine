@@ -1,0 +1,36 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-155,
+				-505
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "ruckus2",
+			"loop": false,
+			"name": "matt ruckus2"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/mattruckus2",
+	"position": [
+		20,
+		40
+	],
+	"healthicon": "matt",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		140,
+		20
+	],
+	"camera_position": [
+		100,
+		500
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

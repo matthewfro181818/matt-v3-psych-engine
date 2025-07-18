@@ -1,0 +1,50 @@
+{
+	"storyName": "White Glove Remixes",
+	"difficulties": "White Gloves",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Light It Up WG",
+			"wgmatt",
+			[
+				240,
+				240,
+				240
+			]
+		],
+		[
+			"Target Practice WG",
+			"wgmatt",
+			[
+				240,
+				240,
+				240
+			]
+		],
+		[
+			"Boxing Match WG",
+			"wgmatt",
+			[
+				240,
+				240,
+				240
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Wiik White Gloves",
+	"hiddenUntilUnlocked": false
+}

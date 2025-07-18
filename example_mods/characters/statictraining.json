@@ -1,0 +1,221 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				5
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "BF HEY",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				18
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "BF hit",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-4,
+				0
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "BF idle shaking",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-16
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "boyfriend dodge",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				294,
+				267
+			],
+			"anim": "attack",
+			"fps": 24,
+			"name": "boyfriend attack",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				-40
+			],
+			"anim": "pre-attack",
+			"fps": 24,
+			"name": "bf pre attack",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				62,
+				243
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "static idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				99,
+				220
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "static left note",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				156
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "static down note"
+		},
+		{
+			"offsets": [
+				25,
+				271
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "static up note"
+		},
+		{
+			"offsets": [
+				35,
+				230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "static right note"
+		},
+		{
+			"offsets": [
+				98,
+				219
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "static left miss"
+		},
+		{
+			"offsets": [
+				-6,
+				160
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "static down miss"
+		},
+		{
+			"offsets": [
+				1,
+				271
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "static up miss"
+		},
+		{
+			"offsets": [
+				37,
+				228
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "static right miss"
+		},
+		{
+			"offsets": [
+				69,
+				249
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "static dies"
+		},
+		{
+			"offsets": [
+				-14,
+				245
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "static death loop"
+		},
+		{
+			"offsets": [
+				-14,
+				242
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "static death confirm"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/statictraining_assets",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "static",
+	"flip_x": true,
+	"healthbar_colors": [
+		63,
+		63,
+		83
+	],
+	"camera_position": [
+		-80,
+		-180
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

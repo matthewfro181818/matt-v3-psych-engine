@@ -1,0 +1,4 @@
+Zooms in and out with the mirrorRepeat shader
+
+Value 1: Zoom (1 = Default, anything under 1 = Zoom In, anything above 1 = Zoom Out)
+Value 2: Duration (in curStep)

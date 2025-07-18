@@ -1,0 +1,157 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				31,
+				-355
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "matt down note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				21,
+				-296
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "matt up note",
+			"indices": []
+		},
+		{
+			"offsets": [
+				20,
+				-299
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "matt idle"
+		},
+		{
+			"offsets": [
+				0,
+				-341
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "matt left note"
+		},
+		{
+			"offsets": [
+				82,
+				-335
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "matt right note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				56,
+				-361
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "matt miss down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				-290
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "matt miss up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				80,
+				-327
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "matt miss right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				-339
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "matt miss left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				28,
+				-265
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "deathStart",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				33,
+				-287
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "deathLoop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				747,
+				41
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "deathConfirm",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/matt-player",
+	"position": [
+		70,
+		-10
+	],
+	"healthicon": "matt",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		140,
+		20
+	],
+	"camera_position": [
+		540,
+		-120
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				20,
+				-299
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Matt Idle Anim"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				86,
+				-343
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Matt Down Anim",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-313
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Matt Right Anim",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				141,
+				-312
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Matt Left Anim",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				56,
+				-218
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Matt Up Anim",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/WhiteGlovesMatt",
+	"position": [
+		40,
+		0
+	],
+	"healthicon": "matt",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		140,
+		20
+	],
+	"camera_position": [
+		-140,
+		350
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

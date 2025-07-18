@@ -1,0 +1,4 @@
+black bars
+
+Value 1: Value (0 - 0.5)
+Value 2: Duration (in curStep)

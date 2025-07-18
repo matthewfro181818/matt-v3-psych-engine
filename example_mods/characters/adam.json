@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				131,
+				-297
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "letstrysmth",
+			"indices": [],
+			"name": "matt letstrysmthelse"
+		},
+		{
+			"offsets": [
+				-60,
+				-302
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "letitflow",
+			"indices": [],
+			"name": "matt letitflow"
+		},
+		{
+			"offsets": [
+				-3,
+				-295
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "switchit",
+			"indices": [],
+			"name": "matt switchitup"
+		},
+		{
+			"offsets": [
+				22,
+				-297
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "wassup",
+			"indices": [],
+			"name": "matt wassup"
+		},
+		{
+			"offsets": [
+				27,
+				-295
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "guy"
+		},
+		{
+			"offsets": [
+				91,
+				-294
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "movement"
+		},
+		{
+			"offsets": [
+				-100,
+				-225
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "movement"
+		},
+		{
+			"offsets": [
+				-100,
+				-370
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "movement"
+		},
+		{
+			"offsets": [
+				-200,
+				-286
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "movement"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Untitled-1",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "face",
+	"flip_x": true,
+	"healthbar_colors": [
+		40,
+		40,
+		40
+	],
+	"camera_position": [
+		10,
+		350
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

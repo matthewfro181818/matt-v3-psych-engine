@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				99,
+				-419
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idleAnim",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				94,
+				-263
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "upAnim",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				190,
+				-456
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "downAnim",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				273,
+				-408
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "leftAnim",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				-361
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "rightAnim",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/mattogus",
+	"position": [
+		-20,
+		-30
+	],
+	"healthicon": "matt",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		140,
+		20
+	],
+	"camera_position": [
+		-110,
+		490
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8,
+	"_editor_isPlayer": false
+}

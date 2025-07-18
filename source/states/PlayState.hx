@@ -1,5 +1,6 @@
 package states;
 
+import backend.ModchartLoader;
 import backend.Highscore;
 import backend.StageData;
 import backend.WeekData;

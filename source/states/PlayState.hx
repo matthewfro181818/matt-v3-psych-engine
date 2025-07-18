@@ -1458,7 +1458,7 @@ class PlayState extends MusicBeatState
 		var ghostNotesCaught:Int = 0;
 		var daBpm:Float = Conductor.bpm;
 	
-		for (section in noteData)
+		for (section in sectionsData)
 		{
 			for (songNotes in section.sectionNotes)
 			{

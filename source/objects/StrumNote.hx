@@ -10,8 +10,8 @@ class StrumNote extends FlxSprite
 	public var rgbShader:RGBShaderReference;
 	public var resetAnim:Float = 0;
 	private var noteData:Int = 0;
-	public var direction:Float = 90;
-	public var downScroll:Bool = false;
+	public var direction:Float = 90;//plan on doing scroll directions soon -bb
+	public var downScroll:Bool = false;//plan on doing scroll directions soon -bb
 	public var sustainReduce:Bool = true;
 	private var player:Int;
 	
@@ -24,6 +24,8 @@ class StrumNote extends FlxSprite
 		return value;
 	}
 
+	public var sustainSplash:SustainSplash;
+
 	public var useRGBShader:Bool = true;
 	public function new(x:Float, y:Float, leData:Int, player:Int) {
 		animation = new PsychAnimationController(this);
@@ -31,24 +33,23 @@ class StrumNote extends FlxSprite
 		rgbShader = new RGBShaderReference(this, Note.initializeGlobalRGBShader(leData));
 		rgbShader.enabled = false;
 		if(PlayState.SONG != null && PlayState.SONG.disableNoteRGB) useRGBShader = false;
+
+		var arrayToIndex = ClientPrefs.data.arrowRGB;
+		if(PlayState.isPixelStage) arrayToIndex = ClientPrefs.data.arrowRGBPixel;
+		if (PlayState.keyCount != 4) arrayToIndex = PlayState.multikeyRGBColors[PlayState.keyCount];
 		
-		var arr:Array<FlxColor> = ClientPrefs.data.arrowRGB[leData];
-		if(PlayState.isPixelStage) arr = ClientPrefs.data.arrowRGBPixel[leData];
+		var arr:Array<FlxColor> = arrayToIndex[leData];
 		
-		if(leData <= arr.length)
+		@:bypassAccessor
 		{
-			@:bypassAccessor
-			{
-				rgbShader.r = arr[0];
-				rgbShader.g = arr[1];
-				rgbShader.b = arr[2];
-			}
+			rgbShader.r = arr[0];
+			rgbShader.g = arr[1];
+			rgbShader.b = arr[2];
 		}
 
 		noteData = leData;
 		this.player = player;
 		this.noteData = leData;
-		this.ID = noteData;
 		super(x, y);
 
 		var skin:String = null;
@@ -60,13 +61,15 @@ class StrumNote extends FlxSprite
 
 		texture = skin; //Load texture and anims
 		scrollFactor.set();
-		playAnim('static');
+		sustainSplash = new SustainSplash(this);
 	}
 
 	public function reloadNote()
 	{
 		var lastAnim:String = null;
 		if(animation.curAnim != null) lastAnim = animation.curAnim.name;
+
+		var noteIndex = PlayState.multikeyNoteAnimIndexes[PlayState.keyCount][noteData];
 
 		if(PlayState.isPixelStage)
 		{
@@ -82,7 +85,7 @@ class StrumNote extends FlxSprite
 			animation.add('red', [7]);
 			animation.add('blue', [5]);
 			animation.add('purple', [4]);
-			switch (Math.abs(noteData) % 4)
+			switch (Math.abs(noteIndex) % 4)
 			{
 				case 0:
 					animation.add('static', [0]);
@@ -111,9 +114,9 @@ class StrumNote extends FlxSprite
 			animation.addByPrefix('red', 'arrowRIGHT');
 
 			antialiasing = ClientPrefs.data.antialiasing;
-			setGraphicSize(Std.int(width * 0.7));
+			setGraphicSize(Std.int(width * PlayState.multikeyScales[PlayState.keyCount]));
 
-			switch (Math.abs(noteData) % 4)
+			switch (Math.abs(noteIndex) % 5)
 			{
 				case 0:
 					animation.addByPrefix('static', 'arrowLEFT');
@@ -131,6 +134,10 @@ class StrumNote extends FlxSprite
 					animation.addByPrefix('static', 'arrowRIGHT');
 					animation.addByPrefix('pressed', 'right press', 24, false);
 					animation.addByPrefix('confirm', 'right confirm', 24, false);
+				case 4: 
+					animation.addByPrefix('static', 'arrowSPACE');
+					animation.addByPrefix('pressed', 'space press', 24, false);
+					animation.addByPrefix('confirm', 'space confirm', 24, false);
 			}
 		}
 		updateHitbox();
@@ -141,11 +148,13 @@ class StrumNote extends FlxSprite
 		}
 	}
 
-	public function playerPosition()
-	{
-		x += Note.swagWidth * noteData;
+	public function postAddedToGroup() {
+		playAnim('static');
+		x += PlayState.multikeyWidths[PlayState.keyCount] * 0.7 * noteData;
 		x += 50;
 		x += ((FlxG.width / 2) * player);
+		x -= PlayState.multikeyOffset[PlayState.keyCount];
+		ID = noteData;
 	}
 
 	override function update(elapsed:Float) {
@@ -167,5 +176,79 @@ class StrumNote extends FlxSprite
 			centerOrigin();
 		}
 		if(useRGBShader) rgbShader.enabled = (animation.curAnim != null && animation.curAnim.name != 'static');
+	}
+
+	public function setRGBShaderToStrum() {
+		shader = rgbShader.parent.shader;
+	}
+	public function getBrightenedPrimaryNoteColor() {
+		var color = rgbShader.r;
+		if (color == 0xFF000000) color = 0xFF010101; //idk stupid shit with full black color
+		return FlxColor.fromHSB(color.hue, color.saturation, 1).toHexString(false,false);
+	}
+}
+
+class SustainSplash extends FlxSprite {
+	public var rgbShader:RGBShaderReference;
+	public var strum:StrumNote;
+	override public function new(strum:StrumNote) {
+		super();
+		this.strum = strum;
+
+		@:privateAccess
+		rgbShader = new RGBShaderReference(this, Note.initializeGlobalRGBShader(strum.noteData));
+
+		frames = Paths.getSparrowAtlas("noteSplashes/sustain_cover");
+		animation.addByPrefix('cover', 'sustain cover pre0', 24, false);
+		animation.addByPrefix('splash', 'sustain cover end0', 24, false);
+		animation.addByPrefix('loop', 'sustain cover0', 24);
+		animation.play("loop");
+		updateHitbox();
+		visible = false;
+		antialiasing = ClientPrefs.data.antialiasing;
+
+		scale.set(strum.scale.x / 0.7, strum.scale.y / 0.7);
+		updateHitbox();
+	}
+
+	public var updatedThisFrame:Bool = false;
+
+	public inline function show() {
+		updatedThisFrame = true;
+		visible = true;
+		if (animation.curAnim.name != "loop") {
+			animation.play("cover");
+			center();
+		}
+	}
+	public inline function hide(miss:Bool = false) {
+		if (animation.curAnim.name == "splash") return;
+
+		updatedThisFrame = true;
+		if (miss) visible = false;
+		if (animation.curAnim.name != "splash") {
+			animation.play("splash");
+			center();
+		}
+	}
+
+	override public function update(elapsed:Float) {
+		super.update(elapsed);
+		updatedThisFrame = false;
+
+		if (animation.curAnim.finished) {
+			if (animation.curAnim.name == "cover") animation.play("loop");
+			if (animation.curAnim.name == "splash") visible = false;
+		}
+		
+		//if (animation.curAnim.name != "splash") center();
+		//updateHitbox();
+		center();
+	}
+
+	public function center() {
+		centerOffsets();
+		x = strum.x + (strum.width/2) - (width/2);
+		y = strum.y + (strum.height/2) - (height/2);
 	}
 }

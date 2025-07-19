@@ -1,0 +1,47 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-73,
+				-352
+			],
+			"indices": [],
+			"fps": 30,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "boxthing"
+		},
+		{
+			"offsets": [
+				-73,
+				-352
+			],
+			"indices": [],
+			"fps": 30,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "boxthing"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/abot",
+	"position": [
+		-540,
+		-70
+	],
+	"healthicon": "",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		20
+	],
+	"sing_duration": 2,
+	"scale": 1.2,
+	"_editor_isPlayer": false
+}

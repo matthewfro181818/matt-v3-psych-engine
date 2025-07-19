@@ -1,0 +1,50 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				95,
+				43
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "trans",
+			"indices": [],
+			"name": "1"
+		},
+		{
+			"offsets": [
+				95,
+				43
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [
+				32,
+				33
+			],
+			"name": "1, 2, 3, 4"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/corr-transition",
+	"position": [
+		140,
+		180
+	],
+	"healthicon": "halfCorrupted",
+	"flip_x": false,
+	"healthbar_colors": [
+		25,
+		19,
+		44
+	],
+	"camera_position": [
+		-315,
+		-5
+	],
+	"sing_duration": 4.69999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

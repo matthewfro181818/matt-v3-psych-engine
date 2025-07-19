@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Pony_Matt.png">
+	<SubTexture name="PM_Idle0000" x="77" y="0" width="31" height="58" frameX="-16" frameY="-3" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="PM_Left0000" x="29" y="59" width="31" height="52" frameX="-16" frameY="-9" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="PM_Left0001" x="139" y="0" width="27" height="53" frameX="-18" frameY="-9" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="PM_Down0000" x="60" y="59" width="33" height="48" frameX="-12" frameY="-13" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="PM_Down0001" x="93" y="59" width="32" height="48" frameX="-13" frameY="-13" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="PM_Up0000" x="0" y="59" width="29" height="56" frameX="-18" frameY="-2" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="PM_Up0001" x="108" y="0" width="31" height="56" frameX="-16" frameY="-3" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="PM_Right0000" x="0" y="0" width="40" height="59" frameX="-16" frameY="-2" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="PM_Right0001" x="40" y="0" width="37" height="58" frameX="-16" frameY="-3" frameWidth="64" frameHeight="64"/>
+</TextureAtlas>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<TextureAtlas imagePath="BG1chs.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bgCharacters0000" x="0" y="0" width="2597" height="551"/>
+	<SubTexture name="bgCharacters0001" x="0" y="551" width="2597" height="551"/>
+	<SubTexture name="bgCharacters0002" x="0" y="551" width="2597" height="551"/>
+	<SubTexture name="bgCharacters0003" x="0" y="1102" width="2597" height="551"/>
+	<SubTexture name="bgCharacters0004" x="0" y="1102" width="2597" height="551"/>
+	<SubTexture name="bgCharacters0005" x="0" y="1653" width="2597" height="551"/>
+	<SubTexture name="bgCharacters0006" x="0" y="1653" width="2597" height="551"/>
+	<SubTexture name="bgCharacters0007" x="0" y="2204" width="2597" height="551"/>
+	<SubTexture name="bgCharacters0008" x="0" y="2204" width="2597" height="551"/>
+	<SubTexture name="bgCharacters0009" x="0" y="2204" width="2597" height="551"/>
+	<SubTexture name="bgCharacters0010" x="0" y="2204" width="2597" height="551"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Valerie.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="IDLE0000" x="0" y="0" width="45" height="57" frameX="-8" frameY="-8" frameWidth="61" frameHeight="72"/>
+	<SubTexture name="IDLE0001" x="0" y="57" width="45" height="57" frameX="-8" frameY="-8" frameWidth="61" frameHeight="72"/>
+	<SubTexture name="IDLE0002" x="45" y="0" width="45" height="57" frameX="-8" frameY="-8" frameWidth="61" frameHeight="72"/>
+	<SubTexture name="IDLE0003" x="45" y="0" width="45" height="57" frameX="-8" frameY="-8" frameWidth="61" frameHeight="72"/>
+	<SubTexture name="IDLE0004" x="90" y="0" width="45" height="57" frameX="-8" frameY="-8" frameWidth="61" frameHeight="72"/>
+	<SubTexture name="IDLE0005" x="0" y="57" width="45" height="57" frameX="-8" frameY="-8" frameWidth="61" frameHeight="72"/>
+</TextureAtlas>

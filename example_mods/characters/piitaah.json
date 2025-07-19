@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				160,
+				-63
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "piitaah idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				162,
+				-63
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "piitaah right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				165,
+				-64
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "piitaah up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				160,
+				-65
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "piitaah down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				162,
+				-63
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "piitaah left",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/piitaah",
+	"position": [
+		0,
+		60
+	],
+	"healthicon": "peter",
+	"flip_x": false,
+	"healthbar_colors": [
+		206,
+		103,
+		29
+	],
+	"camera_position": [
+		-140,
+		140
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9,
+	"_editor_isPlayer": false
+}

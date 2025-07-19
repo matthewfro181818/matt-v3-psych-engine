@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MAJAVI.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Walkies0000" x="180" y="0" width="45" height="54" frameX="-8" frameY="-10" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0001" x="45" y="55" width="45" height="54" frameX="-8" frameY="-10" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0002" x="0" y="0" width="45" height="55" frameX="-8" frameY="-9" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0003" x="45" y="109" width="45" height="54" frameX="-8" frameY="-8" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0004" x="0" y="163" width="45" height="53" frameX="-8" frameY="-8" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0005" x="180" y="107" width="45" height="53" frameX="-8" frameY="-8" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0006" x="180" y="54" width="45" height="53" frameX="-8" frameY="-9" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0007" x="135" y="0" width="45" height="54" frameX="-8" frameY="-10" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0008" x="90" y="55" width="45" height="54" frameX="-8" frameY="-10" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0009" x="0" y="55" width="45" height="54" frameX="-8" frameY="-10" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0010" x="45" y="0" width="45" height="55" frameX="-8" frameY="-9" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0011" x="90" y="0" width="45" height="55" frameX="-8" frameY="-8" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0012" x="0" y="109" width="45" height="54" frameX="-8" frameY="-8" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0013" x="135" y="54" width="45" height="54" frameX="-8" frameY="-8" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0014" x="135" y="109" width="45" height="54" frameX="-8" frameY="-9" frameWidth="61" frameHeight="71"/>
+	<SubTexture name="Walkies0015" x="90" y="109" width="45" height="54" frameX="-8" frameY="-10" frameWidth="61" frameHeight="71"/>
+</TextureAtlas>

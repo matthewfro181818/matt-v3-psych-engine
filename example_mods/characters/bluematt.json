@@ -1,0 +1,146 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				-250
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "blueup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-18,
+				-356
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bluedown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				56,
+				-319
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "blueright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				65,
+				-326
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "blueleft",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-45,
+				-260
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "blueidle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				-260
+			],
+			"anim": "micThrow",
+			"fps": 24,
+			"name": "micthrowblue",
+			"indices": []
+		},
+		{
+			"offsets": [
+				9,
+				-250
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "bluealtup"
+		},
+		{
+			"offsets": [
+				0,
+				-373
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "downaltblue"
+		},
+		{
+			"offsets": [
+				-10,
+				-360
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "rightaltblue"
+		},
+		{
+			"offsets": [
+				131,
+				-332
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "bluealtleft"
+		},
+		{
+			"offsets": [
+				-45,
+				-260
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": true,
+			"name": "bluealtidle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bluematt",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "bluematt",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		145,
+		255
+	],
+	"camera_position": [
+		-10,
+		300
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

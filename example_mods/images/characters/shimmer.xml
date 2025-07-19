@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="not bad kid.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="not bad kid0000" x="0" y="0" width="408" height="448" frameX="0" frameY="-20" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0001" x="0" y="0" width="408" height="448" frameX="0" frameY="-20" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0002" x="408" y="0" width="409" height="451" frameX="0" frameY="-17" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0003" x="408" y="0" width="409" height="451" frameX="0" frameY="-17" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0004" x="817" y="0" width="409" height="451" frameX="0" frameY="-17" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0005" x="817" y="0" width="409" height="451" frameX="0" frameY="-17" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0006" x="1226" y="0" width="409" height="451" frameX="0" frameY="-17" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0007" x="1226" y="0" width="409" height="451" frameX="0" frameY="-17" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0008" x="1635" y="0" width="409" height="451" frameX="0" frameY="-17" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0009" x="1635" y="0" width="409" height="451" frameX="0" frameY="-17" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0010" x="2044" y="0" width="404" height="452" frameX="-9" frameY="-15" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0011" x="2044" y="0" width="404" height="452" frameX="-9" frameY="-15" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0012" x="2448" y="0" width="439" height="468" frameX="-26" frameY="0" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0013" x="2448" y="0" width="439" height="468" frameX="-26" frameY="0" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0014" x="2887" y="0" width="437" height="465" frameX="-39" frameY="-3" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0015" x="2887" y="0" width="437" height="465" frameX="-39" frameY="-3" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0016" x="3324" y="0" width="438" height="464" frameX="-40" frameY="-4" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0017" x="3324" y="0" width="438" height="464" frameX="-40" frameY="-4" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0018" x="0" y="468" width="438" height="464" frameX="-40" frameY="-4" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0019" x="438" y="468" width="438" height="465" frameX="-40" frameY="-3" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0020" x="438" y="468" width="438" height="465" frameX="-40" frameY="-3" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0021" x="876" y="468" width="438" height="466" frameX="-40" frameY="-2" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0022" x="876" y="468" width="438" height="466" frameX="-40" frameY="-2" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0023" x="876" y="468" width="438" height="466" frameX="-40" frameY="-2" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0024" x="876" y="468" width="438" height="466" frameX="-40" frameY="-2" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0025" x="1314" y="468" width="439" height="465" frameX="-40" frameY="-3" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0026" x="1753" y="468" width="437" height="458" frameX="-41" frameY="-10" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0027" x="1753" y="468" width="437" height="458" frameX="-41" frameY="-10" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0028" x="1753" y="468" width="437" height="458" frameX="-41" frameY="-10" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0029" x="2190" y="468" width="442" height="461" frameX="-38" frameY="-7" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0030" x="2190" y="468" width="442" height="461" frameX="-38" frameY="-7" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0031" x="2632" y="468" width="439" height="461" frameX="-39" frameY="-7" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0032" x="2632" y="468" width="439" height="461" frameX="-39" frameY="-7" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0033" x="3071" y="468" width="439" height="461" frameX="-39" frameY="-7" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0034" x="3071" y="468" width="439" height="461" frameX="-39" frameY="-7" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0035" x="3071" y="468" width="439" height="461" frameX="-39" frameY="-7" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0036" x="3071" y="468" width="439" height="461" frameX="-39" frameY="-7" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0037" x="3071" y="468" width="439" height="461" frameX="-39" frameY="-7" frameWidth="480" frameHeight="468"/>
+	<SubTexture name="not bad kid0038" x="3071" y="468" width="439" height="461" frameX="-39" frameY="-7" frameWidth="480" frameHeight="468"/>
+</TextureAtlas>

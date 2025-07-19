@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				17,
+				200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "ShagDies"
+		},
+		{
+			"offsets": [
+				38,
+				200
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "ShagDead"
+		},
+		{
+			"offsets": [
+				18,
+				200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "ShagRetry"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/vsmattredshagdead",
+	"position": [
+		90,
+		430
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		-20,
+		-400
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,4 @@
+Does a camera angle thingy, sorta snaps to the angle and then tweens back
+
+Value 1: Angle Amount (negative for left, positive for right)
+Value 2: Duration (in curStep)

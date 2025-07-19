@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-74,
+				-3
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "i",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-7,
+				-35
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "missr"
+		},
+		{
+			"offsets": [
+				-73,
+				19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "missu"
+		},
+		{
+			"offsets": [
+				99,
+				-66
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "missd"
+		},
+		{
+			"offsets": [
+				48,
+				-25
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "missl"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				-21
+			],
+			"anim": "singLEFT",
+			"fps": 22,
+			"name": "l",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-31,
+				-31
+			],
+			"anim": "singRIGHT",
+			"fps": 22,
+			"name": "r",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-76,
+				24
+			],
+			"anim": "singUP",
+			"fps": 22,
+			"name": "u",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				-78
+			],
+			"anim": "singDOWN",
+			"fps": 22,
+			"name": "d",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bfBattlefield",
+	"position": [
+		-30,
+		290
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		89,
+		180,
+		208
+	],
+	"camera_position": [
+		-10,
+		40
+	],
+	"sing_duration": 4,
+	"scale": 0.9,
+	"_editor_isPlayer": true
+}

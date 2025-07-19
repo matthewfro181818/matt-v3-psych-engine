@@ -1,0 +1,4 @@
+Move mirrorRepeat X Position
+
+Value 1: X Value (Negative goes left, positive goes right)
+Value 2: Duration (in curStep)

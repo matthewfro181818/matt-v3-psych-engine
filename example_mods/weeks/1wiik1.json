@@ -1,0 +1,49 @@
+{
+	"storyName": "Wii Funkin' Wiik 1",
+	"difficulties": "Hard, Legacy",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Light It Up",
+			"matt",
+			[
+				224,
+				126,
+				34
+			]
+		],
+		[
+			"Ruckus",
+			"matt",
+			[
+				224,
+				126,
+				34
+			]
+		],
+		[
+			"Target Practice",
+			"matt",
+			[
+				224,
+				126,
+				34
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekName": "Wiik 1"
+}

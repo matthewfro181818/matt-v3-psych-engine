@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-50,
+				-289
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "fitidle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-63,
+				-329
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "fitright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-43,
+				-250
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "fitup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				36,
+				-305
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "fitleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-59,
+				-360
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "fitdown",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/fisticuffsmatt",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "matt",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		140,
+		0
+	],
+	"camera_position": [
+		-10,
+		350
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

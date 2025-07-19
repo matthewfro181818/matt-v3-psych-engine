@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="vsmattredshagdead.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ShagDead0000" x="20" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0001" x="20" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0002" x="702" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0003" x="702" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0004" x="1384" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0005" x="1384" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0006" x="1384" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0007" x="1384" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0008" x="1384" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0009" x="1384" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0010" x="1384" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0011" x="1384" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0012" x="1384" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0013" x="1384" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDead0014" x="1384" y="20" width="672" height="531"/>
+	<SubTexture name="ShagDies0000" x="2066" y="20" width="629" height="531"/>
+	<SubTexture name="ShagDies0001" x="2705" y="20" width="629" height="531"/>
+	<SubTexture name="ShagDies0002" x="3344" y="20" width="629" height="531"/>
+	<SubTexture name="ShagDies0003" x="20" y="561" width="629" height="531"/>
+	<SubTexture name="ShagDies0004" x="659" y="561" width="629" height="531"/>
+	<SubTexture name="ShagDies0005" x="659" y="561" width="629" height="531"/>
+	<SubTexture name="ShagDies0006" x="659" y="561" width="629" height="531"/>
+	<SubTexture name="ShagDies0007" x="659" y="561" width="629" height="531"/>
+	<SubTexture name="ShagDies0008" x="659" y="561" width="629" height="531"/>
+	<SubTexture name="ShagDies0009" x="659" y="561" width="629" height="531"/>
+	<SubTexture name="ShagDies0010" x="659" y="561" width="629" height="531"/>
+	<SubTexture name="ShagDies0011" x="659" y="561" width="629" height="531"/>
+	<SubTexture name="ShagDies0012" x="659" y="561" width="629" height="531"/>
+	<SubTexture name="ShagDies0013" x="659" y="561" width="629" height="531"/>
+	<SubTexture name="ShagDies0014" x="659" y="561" width="629" height="531"/>
+	<SubTexture name="ShagRetry0000" x="659" y="561" width="629" height="531"/>
+	<SubTexture name="ShagRetry0001" x="1298" y="561" width="629" height="531"/>
+	<SubTexture name="ShagRetry0002" x="1937" y="561" width="629" height="531"/>
+	<SubTexture name="ShagRetry0003" x="2576" y="561" width="629" height="531"/>
+	<SubTexture name="ShagRetry0004" x="2066" y="20" width="629" height="531"/>
+	<SubTexture name="ShagRetry0005" x="2066" y="20" width="629" height="531"/>
+	<SubTexture name="ShagRetry0006" x="2066" y="20" width="629" height="531"/>
+	<SubTexture name="ShagRetry0007" x="2066" y="20" width="629" height="531"/>
+	<SubTexture name="ShagRetry0008" x="2066" y="20" width="629" height="531"/>
+	<SubTexture name="ShagRetry0009" x="2066" y="20" width="629" height="531"/>
+	<SubTexture name="ShagRetry0010" x="2066" y="20" width="629" height="531"/>
+	<SubTexture name="ShagRetry0011" x="2066" y="20" width="629" height="531"/>
+	<SubTexture name="ShagRetry0012" x="2066" y="20" width="629" height="531"/>
+	<SubTexture name="ShagRetry0013" x="2066" y="20" width="629" height="531"/>
+	<SubTexture name="ShagRetry0014" x="2066" y="20" width="629" height="531"/>
+</TextureAtlas>

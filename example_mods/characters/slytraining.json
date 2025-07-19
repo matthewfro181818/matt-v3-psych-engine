@@ -1,0 +1,232 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-3,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "BF HEY"
+		},
+		{
+			"offsets": [
+				14,
+				18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hurt",
+			"indices": [],
+			"name": "BF hit"
+		},
+		{
+			"offsets": [
+				-4,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "scared",
+			"indices": [],
+			"name": "BF idle shaking"
+		},
+		{
+			"offsets": [
+				-10,
+				-16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodge",
+			"indices": [],
+			"name": "boyfriend dodge"
+		},
+		{
+			"offsets": [
+				294,
+				267
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "boyfriend attack"
+		},
+		{
+			"offsets": [
+				-40,
+				-40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "pre-attack",
+			"indices": [],
+			"name": "bf pre attack"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "sly idle",
+			"fps": 24,
+			"name": "sly idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				264
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "sly idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				128,
+				244
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "sly left note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				232
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "sly down note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				307
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "sly up note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-39,
+				226
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "sly right note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				117,
+				224
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "sly left miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-26,
+				219
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "sly down miss"
+		},
+		{
+			"offsets": [
+				-29,
+				304
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "sly up miss"
+		},
+		{
+			"offsets": [
+				-37,
+				215
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "sly right miss"
+		},
+		{
+			"offsets": [
+				79,
+				333
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "sly dies"
+		},
+		{
+			"offsets": [
+				24,
+				336
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "sly death loop"
+		},
+		{
+			"offsets": [
+				24,
+				366
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "sly death confirm"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sly_assets",
+	"position": [
+		20,
+		340
+	],
+	"healthicon": "sly",
+	"flip_x": true,
+	"healthbar_colors": [
+		115,
+		0,
+		175
+	],
+	"camera_position": [
+		50,
+		-300
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

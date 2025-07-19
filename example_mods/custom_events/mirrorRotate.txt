@@ -1,0 +1,4 @@
+Similar to mirrorAngle but tweens to the selected value instead of snapping to it and tweening back
+
+Value 1: Angle Amount (negative for left, positive for right)
+Value 2: Duration (in curStep)

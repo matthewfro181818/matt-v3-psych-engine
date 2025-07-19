@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="eteled.png" width="6614" height="1388" spritePadding="3" borderPadding="1">
+	<SubTexture name="eteled down0000" x="1" y="1" width="580" height="603" frameX="0" frameY="-14" frameWidth="582" frameHeight="618"/>
+	<SubTexture name="eteled down0001" x="1" y="1" width="580" height="603" frameX="0" frameY="-14" frameWidth="582" frameHeight="618"/>
+	<SubTexture name="eteled down0002" x="584" y="1" width="582" height="598" frameX="0" frameY="-19" frameWidth="582" frameHeight="618"/>
+	<SubTexture name="eteled down0003" x="584" y="1" width="582" height="598" frameX="0" frameY="-19" frameWidth="582" frameHeight="618"/>
+	<SubTexture name="eteled down0004" x="1169" y="1" width="581" height="607" frameX="0" frameY="-10" frameWidth="582" frameHeight="618"/>
+	<SubTexture name="eteled down0005" x="1169" y="1" width="581" height="607" frameX="0" frameY="-10" frameWidth="582" frameHeight="618"/>
+	<SubTexture name="eteled down0006" x="1753" y="1" width="579" height="617" frameX="0" frameY="0" frameWidth="582" frameHeight="618"/>
+	<SubTexture name="eteled down0007" x="1753" y="1" width="579" height="617" frameX="0" frameY="0" frameWidth="582" frameHeight="618"/>
+	<SubTexture name="eteled down0008" x="1753" y="1" width="579" height="617" frameX="0" frameY="0" frameWidth="582" frameHeight="618"/>
+	<SubTexture name="eteled down0009" x="1753" y="1" width="579" height="617" frameX="0" frameY="0" frameWidth="582" frameHeight="618"/>
+	<SubTexture name="eteled eft0000" x="2335" y="1" width="581" height="695" frameX="-1" frameY="0" frameWidth="583" frameHeight="695"/>
+	<SubTexture name="eteled eft0001" x="2335" y="1" width="581" height="695" frameX="-1" frameY="0" frameWidth="583" frameHeight="695"/>
+	<SubTexture name="eteled eft0002" x="2919" y="1" width="583" height="674" frameX="0" frameY="-21" frameWidth="583" frameHeight="695"/>
+	<SubTexture name="eteled eft0003" x="2919" y="1" width="583" height="674" frameX="0" frameY="-21" frameWidth="583" frameHeight="695"/>
+	<SubTexture name="eteled eft0004" x="3505" y="1" width="569" height="681" frameX="-15" frameY="-14" frameWidth="583" frameHeight="695"/>
+	<SubTexture name="eteled eft0005" x="3505" y="1" width="569" height="681" frameX="-15" frameY="-14" frameWidth="583" frameHeight="695"/>
+	<SubTexture name="eteled eft0006" x="4077" y="1" width="567" height="686" frameX="-17" frameY="-9" frameWidth="583" frameHeight="695"/>
+	<SubTexture name="eteled eft0007" x="4077" y="1" width="567" height="686" frameX="-17" frameY="-9" frameWidth="583" frameHeight="695"/>
+	<SubTexture name="eteled eft0008" x="4077" y="1" width="567" height="686" frameX="-17" frameY="-9" frameWidth="583" frameHeight="695"/>
+	<SubTexture name="eteled eft0009" x="4077" y="1" width="567" height="686" frameX="-17" frameY="-9" frameWidth="583" frameHeight="695"/>
+	<SubTexture name="eteled idle0000" x="4647" y="1" width="620" height="692" rotated="true" frameX="0" frameY="-17" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0001" x="5270" y="1" width="617" height="684" rotated="true" frameX="-6" frameY="-20" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0002" x="5270" y="1" width="617" height="684" rotated="true" frameX="-6" frameY="-20" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0003" x="5890" y="1" width="625" height="675" rotated="true" frameX="-13" frameY="-13" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0004" x="5890" y="1" width="625" height="675" rotated="true" frameX="-13" frameY="-13" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0005" x="1" y="699" width="631" height="678" rotated="true" frameX="-10" frameY="-6" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0006" x="1" y="699" width="631" height="678" rotated="true" frameX="-10" frameY="-6" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0007" x="635" y="699" width="638" height="685" rotated="true" frameX="-3" frameY="0" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0008" x="635" y="699" width="638" height="685" rotated="true" frameX="-3" frameY="0" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0009" x="1276" y="699" width="638" height="688" rotated="true" frameX="0" frameY="0" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0010" x="1276" y="699" width="638" height="688" rotated="true" frameX="0" frameY="0" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0011" x="1276" y="699" width="638" height="688" rotated="true" frameX="0" frameY="0" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0012" x="1276" y="699" width="638" height="688" rotated="true" frameX="0" frameY="0" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0013" x="1276" y="699" width="638" height="688" rotated="true" frameX="0" frameY="0" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled idle0014" x="1276" y="699" width="638" height="688" rotated="true" frameX="0" frameY="0" frameWidth="693" frameHeight="638"/>
+	<SubTexture name="eteled right0000" x="1917" y="699" width="624" height="666" frameX="-1" frameY="-2" frameWidth="624" frameHeight="668"/>
+	<SubTexture name="eteled right0001" x="1917" y="699" width="624" height="666" frameX="-1" frameY="-2" frameWidth="624" frameHeight="668"/>
+	<SubTexture name="eteled right0002" x="2544" y="699" width="618" height="667" frameX="0" frameY="-1" frameWidth="624" frameHeight="668"/>
+	<SubTexture name="eteled right0003" x="2544" y="699" width="618" height="667" frameX="0" frameY="-1" frameWidth="624" frameHeight="668"/>
+	<SubTexture name="eteled right0004" x="3165" y="699" width="609" height="668" frameX="0" frameY="0" frameWidth="624" frameHeight="668"/>
+	<SubTexture name="eteled right0005" x="3165" y="699" width="609" height="668" frameX="0" frameY="0" frameWidth="624" frameHeight="668"/>
+	<SubTexture name="eteled right0006" x="3777" y="699" width="606" height="668" frameX="0" frameY="0" frameWidth="624" frameHeight="668"/>
+	<SubTexture name="eteled right0007" x="3777" y="699" width="606" height="668" frameX="0" frameY="0" frameWidth="624" frameHeight="668"/>
+	<SubTexture name="eteled right0008" x="3777" y="699" width="606" height="668" frameX="0" frameY="0" frameWidth="624" frameHeight="668"/>
+	<SubTexture name="eteled right0009" x="3777" y="699" width="606" height="668" frameX="0" frameY="0" frameWidth="624" frameHeight="668"/>
+	<SubTexture name="eteled up0000" x="4386" y="699" width="560" height="683" frameX="-2" frameY="-4" frameWidth="560" frameHeight="688"/>
+	<SubTexture name="eteled up0001" x="4386" y="699" width="560" height="683" frameX="-2" frameY="-4" frameWidth="560" frameHeight="688"/>
+	<SubTexture name="eteled up0002" x="4949" y="699" width="549" height="687" frameX="0" frameY="0" frameWidth="560" frameHeight="688"/>
+	<SubTexture name="eteled up0003" x="4949" y="699" width="549" height="687" frameX="0" frameY="0" frameWidth="560" frameHeight="688"/>
+	<SubTexture name="eteled up0004" x="5501" y="699" width="554" height="675" frameX="0" frameY="-12" frameWidth="560" frameHeight="688"/>
+	<SubTexture name="eteled up0005" x="5501" y="699" width="554" height="675" frameX="0" frameY="-12" frameWidth="560" frameHeight="688"/>
+	<SubTexture name="eteled up0006" x="6058" y="699" width="555" height="676" frameX="0" frameY="-11" frameWidth="560" frameHeight="688"/>
+	<SubTexture name="eteled up0007" x="6058" y="699" width="555" height="676" frameX="0" frameY="-11" frameWidth="560" frameHeight="688"/>
+	<SubTexture name="eteled up0008" x="6058" y="699" width="555" height="676" frameX="0" frameY="-11" frameWidth="560" frameHeight="688"/>
+	<SubTexture name="eteled up0009" x="6058" y="699" width="555" height="676" frameX="0" frameY="-11" frameWidth="560" frameHeight="688"/>
+</TextureAtlas>

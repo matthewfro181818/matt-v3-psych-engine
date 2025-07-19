@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				246,
+				153
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				303,
+				16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "note left-scaled"
+		},
+		{
+			"offsets": [
+				252,
+				134
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "note down-scaled"
+		},
+		{
+			"offsets": [
+				312,
+				288
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "note up-scaled"
+		},
+		{
+			"offsets": [
+				175,
+				99
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "note right-scaled"
+		},
+		{
+			"offsets": [
+				302,
+				9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "note left miss"
+		},
+		{
+			"offsets": [
+				179,
+				119
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "note right miss"
+		},
+		{
+			"offsets": [
+				284,
+				262
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "note up miss"
+		},
+		{
+			"offsets": [
+				256,
+				153
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "note down miss"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/WGBM-bffly",
+	"position": [
+		160,
+		300
+	],
+	"healthicon": "wgbf",
+	"flip_x": true,
+	"healthbar_colors": [
+		57,
+		152,
+		190
+	],
+	"camera_position": [
+		0,
+		-50
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

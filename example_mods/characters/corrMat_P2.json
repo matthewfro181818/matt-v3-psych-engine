@@ -1,0 +1,102 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				28,
+				-16
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "l",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-38,
+				-12
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "r",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-22,
+				41
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "u"
+		},
+		{
+			"offsets": [
+				49,
+				-58
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "d"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				290,
+				180
+			],
+			"anim": "dies",
+			"fps": 24,
+			"name": "hurt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "i",
+			"indices": []
+		},
+		{
+			"offsets": [
+				2,
+				6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "crys",
+			"loop": false,
+			"name": "whyy"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/corrupted_Matt_P2",
+	"position": [
+		30,
+		490
+	],
+	"healthicon": "corrupted",
+	"flip_x": false,
+	"healthbar_colors": [
+		25,
+		19,
+		44
+	],
+	"camera_position": [
+		-180,
+		110
+	],
+	"sing_duration": 4.69999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

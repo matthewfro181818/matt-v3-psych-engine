@@ -1,0 +1,7 @@
+Value 1 = (camera),(ease)
+value 2 = ammount,time
+
+camera can be = camGame, camHUD, other
+ease can be	  = quart, quint, sine, linear, bounce, back,
+                circ, cube, elastic, expo, quad, smoothStep
+with In, Out, InOut at the end

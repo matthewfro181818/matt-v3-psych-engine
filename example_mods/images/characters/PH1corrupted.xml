@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="PH1corrupted.png" width="1051" height="6728" spritePadding="3" borderPadding="1">
+	<SubTexture name="halfcor down note0000" x="1" y="1" width="248" height="573" frameX="0" frameY="-5" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor down note0001" x="252" y="1" width="248" height="573" frameX="0" frameY="-5" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor down note0002" x="503" y="1" width="248" height="578" frameX="0" frameY="0" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor down note0003" x="754" y="1" width="248" height="578" frameX="0" frameY="0" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor down note0004" x="503" y="1" width="248" height="578" frameX="0" frameY="0" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor down note0005" x="754" y="1" width="248" height="578" frameX="0" frameY="0" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor down note0006" x="503" y="1" width="248" height="578" frameX="0" frameY="0" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor down note0007" x="754" y="1" width="248" height="578" frameX="0" frameY="0" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor down note0008" x="503" y="1" width="248" height="578" frameX="0" frameY="0" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor down note0009" x="754" y="1" width="248" height="578" frameX="0" frameY="0" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor down note0010" x="503" y="1" width="248" height="578" frameX="0" frameY="0" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor down note0011" x="754" y="1" width="248" height="578" frameX="0" frameY="0" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor down note0012" x="503" y="1" width="248" height="578" frameX="0" frameY="0" frameWidth="248" frameHeight="578"/>
+	<SubTexture name="halfcor idle0000" x="1" y="582" width="260" height="587" frameX="0" frameY="-1" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0001" x="264" y="582" width="260" height="587" frameX="0" frameY="-1" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0002" x="527" y="582" width="260" height="584" frameX="0" frameY="-4" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0003" x="790" y="582" width="260" height="584" frameX="0" frameY="-4" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0004" x="1" y="1172" width="260" height="582" frameX="0" frameY="-6" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0005" x="264" y="1172" width="260" height="582" frameX="0" frameY="-6" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0006" x="1" y="1172" width="260" height="582" frameX="0" frameY="-6" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0007" x="527" y="1172" width="260" height="581" frameX="0" frameY="-7" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0008" x="790" y="1172" width="260" height="581" frameX="0" frameY="-7" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0009" x="1" y="1757" width="260" height="580" frameX="0" frameY="-8" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0010" x="264" y="1757" width="260" height="580" frameX="0" frameY="-8" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0011" x="527" y="1757" width="260" height="580" frameX="0" frameY="-8" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0012" x="790" y="1757" width="260" height="580" frameX="0" frameY="-8" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0013" x="1" y="2340" width="260" height="580" frameX="0" frameY="-8" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0014" x="264" y="2340" width="260" height="580" frameX="0" frameY="-8" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0015" x="527" y="2340" width="260" height="581" frameX="0" frameY="-7" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0016" x="790" y="2340" width="260" height="581" frameX="0" frameY="-7" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0017" x="1" y="2924" width="260" height="582" frameX="0" frameY="-6" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0018" x="264" y="2924" width="260" height="582" frameX="0" frameY="-6" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0019" x="527" y="2924" width="260" height="583" frameX="0" frameY="-5" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0020" x="790" y="2924" width="260" height="583" frameX="0" frameY="-5" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0021" x="1" y="3510" width="260" height="584" frameX="0" frameY="-4" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0022" x="264" y="3510" width="260" height="584" frameX="0" frameY="-4" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0023" x="527" y="3510" width="260" height="584" frameX="0" frameY="-4" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0024" x="790" y="3510" width="260" height="585" frameX="0" frameY="-3" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0025" x="1" y="4098" width="260" height="585" frameX="0" frameY="-3" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0026" x="264" y="4098" width="260" height="587" frameX="0" frameY="-1" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0027" x="527" y="4098" width="260" height="587" frameX="0" frameY="-1" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0028" x="790" y="4098" width="260" height="587" frameX="0" frameY="-1" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0029" x="527" y="4098" width="260" height="587" frameX="0" frameY="-1" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor idle0030" x="790" y="4098" width="260" height="587" frameX="0" frameY="-1" frameWidth="260" frameHeight="588"/>
+	<SubTexture name="halfcor left note0000" x="1" y="4688" width="304" height="571" frameX="0" frameY="0" frameWidth="304" frameHeight="571"/>
+	<SubTexture name="halfcor left note0001" x="308" y="4688" width="304" height="571" frameX="0" frameY="0" frameWidth="304" frameHeight="571"/>
+	<SubTexture name="halfcor left note0002" x="615" y="4688" width="284" height="569" frameX="-22" frameY="-2" frameWidth="304" frameHeight="571"/>
+	<SubTexture name="halfcor left note0003" x="1" y="5262" width="284" height="569" frameX="-22" frameY="-2" frameWidth="304" frameHeight="571"/>
+	<SubTexture name="halfcor left note0004" x="615" y="4688" width="284" height="569" frameX="-22" frameY="-2" frameWidth="304" frameHeight="571"/>
+	<SubTexture name="halfcor left note0005" x="1" y="5262" width="284" height="569" frameX="-22" frameY="-2" frameWidth="304" frameHeight="571"/>
+	<SubTexture name="halfcor left note0006" x="615" y="4688" width="284" height="569" frameX="-22" frameY="-2" frameWidth="304" frameHeight="571"/>
+	<SubTexture name="halfcor left note0007" x="1" y="5262" width="284" height="569" frameX="-22" frameY="-2" frameWidth="304" frameHeight="571"/>
+	<SubTexture name="halfcor left note0008" x="615" y="4688" width="284" height="569" frameX="-22" frameY="-2" frameWidth="304" frameHeight="571"/>
+	<SubTexture name="halfcor right note0000" x="288" y="5262" width="254" height="584" frameX="-1" frameY="-2" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0001" x="545" y="5262" width="254" height="584" frameX="-1" frameY="-2" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0002" x="802" y="5262" width="238" height="586" frameX="0" frameY="0" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0003" x="1" y="5851" width="238" height="586" frameX="0" frameY="0" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0004" x="802" y="5262" width="238" height="586" frameX="0" frameY="0" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0005" x="1" y="5851" width="238" height="586" frameX="0" frameY="0" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0006" x="802" y="5262" width="238" height="586" frameX="0" frameY="0" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0007" x="1" y="5851" width="238" height="586" frameX="0" frameY="0" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0008" x="802" y="5262" width="238" height="586" frameX="0" frameY="0" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0009" x="1" y="5851" width="238" height="586" frameX="0" frameY="0" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0010" x="802" y="5262" width="238" height="586" frameX="0" frameY="0" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0011" x="1" y="5851" width="238" height="586" frameX="0" frameY="0" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0012" x="802" y="5262" width="238" height="586" frameX="0" frameY="0" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor right note0013" x="1" y="5851" width="238" height="586" frameX="0" frameY="0" frameWidth="255" frameHeight="586"/>
+	<SubTexture name="halfcor up note0000" x="242" y="5851" width="268" height="604" frameX="0" frameY="0" frameWidth="268" frameHeight="604"/>
+	<SubTexture name="halfcor up note0001" x="513" y="5851" width="268" height="604" frameX="0" frameY="0" frameWidth="268" frameHeight="604"/>
+	<SubTexture name="halfcor up note0002" x="784" y="5851" width="261" height="599" frameX="0" frameY="-5" frameWidth="268" frameHeight="604"/>
+	<SubTexture name="halfcor up note0003" x="1" y="6458" width="599" height="261" rotated="true" frameX="0" frameY="-5" frameWidth="268" frameHeight="604"/>
+	<SubTexture name="halfcor up note0004" x="784" y="5851" width="261" height="599" frameX="0" frameY="-5" frameWidth="268" frameHeight="604"/>
+	<SubTexture name="halfcor up note0005" x="1" y="6458" width="599" height="261" rotated="true" frameX="0" frameY="-5" frameWidth="268" frameHeight="604"/>
+	<SubTexture name="halfcor up note0006" x="784" y="5851" width="261" height="599" frameX="0" frameY="-5" frameWidth="268" frameHeight="604"/>
+	<SubTexture name="halfcor up note0007" x="1" y="6458" width="599" height="261" rotated="true" frameX="0" frameY="-5" frameWidth="268" frameHeight="604"/>
+	<SubTexture name="sam do not kill me pls0000" x="603" y="6458" width="243" height="269" rotated="true" frameX="0" frameY="0" frameWidth="269" frameHeight="243"/>
+</TextureAtlas>

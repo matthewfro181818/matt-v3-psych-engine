@@ -1,0 +1,32 @@
+{
+	"storyName": "Wii Funkin' Shaggy Stuff",
+	"difficulties": "9K,4K",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Heavenfall",
+			"rshaggyxbmatt",
+			[
+				252,
+				142,
+				58
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Shaggy stuff"
+}

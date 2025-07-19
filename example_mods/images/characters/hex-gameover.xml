@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="hex-gameover.png" width="5783" height="5168" spritePadding="3" borderPadding="1">
+	<SubTexture name="hex gameover0000" x="2070" y="1" width="883" height="1084" frameX="-114" frameY="-120" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0001" x="1" y="1" width="1049" height="1184" frameX="-13" frameY="-20" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0002" x="1053" y="1" width="1014" height="1204" frameX="0" frameY="0" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0003" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0004" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0005" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0006" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0007" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0008" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0009" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0010" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0011" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0012" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0013" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0014" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0015" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0016" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0017" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0018" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0019" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0020" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0021" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0022" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0023" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0024" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0025" x="5003" y="1208" width="779" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0026" x="4215" y="1208" width="785" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0027" x="4215" y="1208" width="785" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0028" x="2537" y="1208" width="805" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0029" x="2537" y="1208" width="805" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0030" x="1717" y="1208" width="817" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0031" x="4690" y="1" width="854" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0032" x="4690" y="1" width="854" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0033" x="2956" y="1" width="867" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0034" x="2956" y="1" width="867" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0035" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0036" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0037" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0038" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0039" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0040" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0041" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0042" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0043" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0044" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0045" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0046" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0047" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0048" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0049" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0050" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0051" x="3826" y="1" width="861" height="1098" frameX="-140" frameY="-106" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0052" x="1" y="1208" width="854" height="1095" frameX="-147" frameY="-109" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0053" x="1" y="1208" width="854" height="1095" frameX="-147" frameY="-109" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0054" x="858" y="1208" width="856" height="1061" frameX="-145" frameY="-143" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0055" x="858" y="1208" width="856" height="1061" frameX="-145" frameY="-143" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0056" x="814" y="4307" width="803" height="856" frameX="-198" frameY="-386" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0057" x="1" y="4307" width="810" height="860" frameX="-191" frameY="-386" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0058" x="1620" y="4307" width="810" height="836" frameX="-191" frameY="-410" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0059" x="3253" y="4307" width="806" height="827" frameX="-195" frameY="-410" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0060" x="4062" y="4307" width="806" height="826" frameX="-195" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0061" x="4591" y="3308" width="853" height="821" frameX="-148" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0062" x="4591" y="3308" width="853" height="821" frameX="-148" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0063" x="2433" y="4307" width="817" height="821" frameX="-184" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0064" x="2433" y="4307" width="817" height="821" frameX="-184" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0065" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0066" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0067" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0068" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0069" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0070" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0071" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0072" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0073" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0074" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0075" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0076" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0077" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0078" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0079" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0080" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0081" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0082" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0083" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0084" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0085" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0086" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0087" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0088" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0089" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0090" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0091" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0092" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0093" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0094" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0095" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0096" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0097" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0098" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0099" x="4871" y="4307" width="762" height="821" frameX="-239" frameY="-411" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0100" x="1" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0101" x="1" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0102" x="1" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0103" x="1" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0104" x="1" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0105" x="1" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0106" x="1" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0107" x="1" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0108" x="1" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0109" x="766" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0110" x="766" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0111" x="766" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0112" x="766" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0113" x="1531" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0114" x="1531" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0115" x="1531" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0116" x="2296" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0117" x="2296" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0118" x="3061" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0119" x="3061" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0120" x="3826" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover0121" x="3826" y="3308" width="762" height="996" frameX="-239" frameY="-236" frameWidth="1049" frameHeight="1205"/>
+	<SubTexture name="hex gameover enter0000" x="1652" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0001" x="2417" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0002" x="845" y="2309" width="804" height="996" frameX="0" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0003" x="3182" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0004" x="3182" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0005" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0006" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0007" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0008" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0009" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0010" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0011" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0012" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0013" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0014" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0015" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0016" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0017" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0018" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0019" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0020" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0021" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0022" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0023" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0024" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0025" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0026" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0027" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0028" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0029" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0030" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0031" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0032" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0033" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0034" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0035" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0036" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0037" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0038" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0039" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0040" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0041" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0042" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0043" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0044" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0045" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0046" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0047" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0048" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0049" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0050" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0051" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0052" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0053" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0054" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0055" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0056" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0057" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0058" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0059" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0060" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0061" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0062" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover enter0063" x="3947" y="2309" width="762" height="996" frameX="-42" frameY="-1" frameWidth="804" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0000" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0001" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0002" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0003" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0004" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0005" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0006" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0007" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0008" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0009" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0010" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0011" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0012" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0013" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0014" x="1" y="2309" width="841" height="996" frameX="-26" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0015" x="1" y="2309" width="841" height="996" frameX="-26" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0016" x="3345" y="1208" width="867" height="996" frameX="0" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0017" x="3345" y="1208" width="867" height="996" frameX="0" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0018" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0019" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0020" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0021" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0022" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0023" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0024" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0025" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0026" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0027" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0028" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0029" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0030" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0031" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0032" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0033" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0034" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0035" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0036" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0037" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0038" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0039" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0040" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0041" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0042" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0043" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0044" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0045" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0046" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0047" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0048" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0049" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0050" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0051" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0052" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0053" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0054" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0055" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0056" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0057" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0058" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0059" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0060" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0061" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0062" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+	<SubTexture name="hex gameover loop0063" x="4712" y="2309" width="762" height="996" frameX="-105" frameY="-1" frameWidth="867" frameHeight="997"/>
+</TextureAtlas>

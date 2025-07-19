@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				246,
+				230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "bf gameover-scaled"
+		},
+		{
+			"offsets": [
+				120,
+				232
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "bf gameover loop"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				239,
+				158
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "bf gameover confirm",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/WGBM-bffly-dead",
+	"position": [
+		160,
+		300
+	],
+	"healthicon": "wgbf",
+	"flip_x": true,
+	"healthbar_colors": [
+		57,
+		152,
+		190
+	],
+	"camera_position": [
+		210,
+		-120
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

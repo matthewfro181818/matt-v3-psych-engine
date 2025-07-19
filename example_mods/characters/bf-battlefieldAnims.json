@@ -1,0 +1,113 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				196,
+				587
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "duck",
+			"indices": [],
+			"name": "DUCK"
+		},
+		{
+			"offsets": [
+				241,
+				732
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "respawn",
+			"indices": [],
+			"name": "RESPAWN"
+		},
+		{
+			"offsets": [
+				284,
+				147
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hit",
+			"indices": [],
+			"name": "anim"
+		},
+		{
+			"offsets": [
+				-84,
+				-40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "prep",
+			"indices": [],
+			"name": "prep"
+		},
+		{
+			"offsets": [
+				1036,
+				96
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "attack"
+		},
+		{
+			"offsets": [
+				-14,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "getup",
+			"indices": [],
+			"name": "getUp"
+		},
+		{
+			"offsets": [
+				183,
+				610
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "spin",
+			"indices": [],
+			"name": "bfSPIN"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				195,
+				358
+			],
+			"anim": "platform",
+			"fps": 24,
+			"name": "plat",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/battlefieldBFAnims",
+	"position": [
+		-30,
+		290
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		89,
+		180,
+		208
+	],
+	"camera_position": [
+		-10,
+		40
+	],
+	"sing_duration": 4,
+	"scale": 0.9,
+	"_editor_isPlayer": true
+}

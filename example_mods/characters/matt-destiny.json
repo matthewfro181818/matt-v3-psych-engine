@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				142,
+				-378
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "matt/down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2615,
+				-56
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "matt/up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				59,
+				-219
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "matt/right"
+		},
+		{
+			"offsets": [
+				127,
+				-350
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "matt/left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				104,
+				-387
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "matt/missD",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2609,
+				-54
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "matt/missU",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				113,
+				-357
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "matt/missL",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				-223
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "matt/missR",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				43,
+				-208
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "matt/idle",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/matt-destiny",
+	"position": [
+		130,
+		-80
+	],
+	"healthicon": "matt",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		140,
+		20
+	],
+	"camera_position": [
+		10,
+		410
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

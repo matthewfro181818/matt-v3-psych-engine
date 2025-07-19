@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				101,
+				199
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "deathStart",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				115
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "deathConfirm",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-36,
+				76
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "deathLoop",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/BattlefieldGAMEOVER",
+	"position": [
+		-30,
+		270
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		89,
+		180,
+		208
+	],
+	"camera_position": [
+		0,
+		60
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

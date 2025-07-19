@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="BG1_chs.png">
+<SubTexture name="BG1_chs bopping0000" x="0" y="479" width="2466" height="470" frameX="-59" frameY="-82" frameWidth="2535" frameHeight="550" />
+<SubTexture name="BG1_chs bopping0001" x="0" y="479" width="2466" height="470" frameX="-59" frameY="-82" frameWidth="2535" frameHeight="550" />
+<SubTexture name="BG1_chs bopping0002" x="0" y="949" width="2469" height="467" frameX="-58" frameY="-85" frameWidth="2535" frameHeight="550" />
+<SubTexture name="BG1_chs bopping0003" x="0" y="949" width="2469" height="467" frameX="-58" frameY="-85" frameWidth="2535" frameHeight="550" />
+<SubTexture name="BG1_chs bopping0004" x="2463" y="0" width="2467" height="474" frameX="-59" frameY="-78" frameWidth="2535" frameHeight="550" />
+<SubTexture name="BG1_chs bopping0005" x="2463" y="0" width="2467" height="474" frameX="-59" frameY="-78" frameWidth="2535" frameHeight="550" />
+<SubTexture name="BG1_chs bopping0006" x="0" y="0" width="2463" height="479" frameX="-61" frameY="-73" frameWidth="2535" frameHeight="550" />
+<SubTexture name="BG1_chs bopping0007" x="0" y="0" width="2463" height="479" frameX="-61" frameY="-73" frameWidth="2535" frameHeight="550" />
+</TextureAtlas>

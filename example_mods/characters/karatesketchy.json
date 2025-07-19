@@ -1,0 +1,190 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-16
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "boyfriend dodge",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				294,
+				267
+			],
+			"anim": "attack",
+			"fps": 24,
+			"name": "boyfriend attack",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				-40
+			],
+			"anim": "pre-attack",
+			"fps": 24,
+			"name": "bf pre attack",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				254
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "sketchy idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				124,
+				244
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "sketchy left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				207
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "sketchy down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				41,
+				324
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "sketchy up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				12,
+				254
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "sketchy right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				131,
+				254
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "sketchy left miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				65,
+				229
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "sketchy down miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				41,
+				313
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "sketchy up miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				13,
+				255
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "sketchy right miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				278
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "death of sketch0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-35,
+				288
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "death of sketch loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				365
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "death of sketch confirm",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/KarateSketchy",
+	"position": [
+		90,
+		450
+	],
+	"healthicon": "sketchy",
+	"flip_x": true,
+	"healthbar_colors": [
+		225,
+		225,
+		225
+	],
+	"camera_position": [
+		-60,
+		-220
+	],
+	"sing_duration": 4,
+	"scale": 0.8,
+	"_editor_isPlayer": true
+}

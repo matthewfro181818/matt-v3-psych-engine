@@ -1,0 +1,41 @@
+{
+	"storyName": "Wii Funkin' Shaggy Stuff",
+	"difficulties": "6K,4K",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Lazulii",
+			"bluematt",
+			[
+				252,
+				142,
+				58
+			]
+		],
+		[
+			"Illusion",
+			"mattxbmatt",
+			[
+				252,
+				142,
+				58
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Shaggy stuff"
+}

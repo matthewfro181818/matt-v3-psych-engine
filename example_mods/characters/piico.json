@@ -1,0 +1,137 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "i"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-154,
+				6
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "missr",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-43,
+				34
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "missu",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				-76
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "missd",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				48,
+				-36
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "missl",
+			"indices": []
+		},
+		{
+			"offsets": [
+				243,
+				-32
+			],
+			"loop": false,
+			"fps": 22,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "l"
+		},
+		{
+			"offsets": [
+				-155,
+				-1
+			],
+			"loop": false,
+			"fps": 22,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "r"
+		},
+		{
+			"offsets": [
+				-39,
+				31
+			],
+			"loop": false,
+			"fps": 22,
+			"anim": "singUP",
+			"indices": [],
+			"name": "u"
+		},
+		{
+			"offsets": [
+				-11,
+				-68
+			],
+			"loop": false,
+			"fps": 22,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "d"
+		},
+		{
+			"offsets": [
+				243,
+				-32
+			],
+			"indices": [
+				15,
+				16,
+				14
+			],
+			"fps": 22,
+			"anim": "singLEFT-loop",
+			"loop": true,
+			"name": "l"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/PICO_WII_assets_V6",
+	"position": [
+		-30,
+		330
+	],
+	"healthicon": "wiipic",
+	"flip_x": true,
+	"healthbar_colors": [
+		183,
+		216,
+		85
+	],
+	"camera_position": [
+		50,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

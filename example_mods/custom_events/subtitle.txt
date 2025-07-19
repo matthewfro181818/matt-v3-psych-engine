@@ -1,0 +1,10 @@
+value 1: [letters per second],[do on text]
+letters per second: ammount odf letters written per second (10 recommended)
+	(if 0 it qill inmediately appear)
+do on text: 
+	-add	: writes next to the already written line
+	-addNext: writes on the next line
+	-remove : clears the subtitle
+	-replace: clears the subtitle and then starts writing
+
+value 2: [text] (yep thats it)

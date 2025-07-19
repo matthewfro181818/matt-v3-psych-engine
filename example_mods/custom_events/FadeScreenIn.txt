@@ -1,0 +1,4 @@
+Fades screen to black
+
+Value 1: Duration (in curStep)
+Value 2: leave empty

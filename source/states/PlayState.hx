@@ -1,5 +1,7 @@
 package states;
 
+import haxe.Int64;
+
 import backend.ModchartLoader;
 import backend.Highscore;
 import backend.StageData;
@@ -194,6 +196,15 @@ class PlayState extends MusicBeatState
 
 	#if HSCRIPT_ALLOWED
 	public var hscriptArray:Array<HScript> = [];
+	#end
+
+	#if LUA_ALLOWED
+	public var modchartTweens:Map<String, FlxTween> = new Map<String, FlxTween>();
+	public var modchartSprites:Map<String, ModchartSprite> = new Map<String, ModchartSprite>();
+	public var modchartTimers:Map<String, FlxTimer> = new Map<String, FlxTimer>();
+	public var modchartSounds:Map<String, FlxSound> = new Map<String, FlxSound>();
+	public var modchartTexts:Map<String, FlxText> = new Map<String, FlxText>();
+	public var modchartSaves:Map<String, FlxSave> = new Map<String, FlxSave>();
 	#end
 
 	public var BF_X:Float = 770;
@@ -737,7 +748,6 @@ class PlayState extends MusicBeatState
 			eventNotes.sort(sortByTime);
 		}
 
-		startCallback();
 		RecalculateRating(false, false);
 
 		FlxG.stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
@@ -1167,7 +1177,6 @@ class PlayState extends MusicBeatState
 			if (skipCountdown || startOnTime > 0) skipArrowStartTween = true;
 
 			canPause = true;
-			generateStaticArrows(0);
 			generateStaticArrows(1);
 			for (i in 0...playerStrums.length) {
 				setOnScripts('defaultPlayerStrumX' + i, playerStrums.members[i].x);
@@ -1743,8 +1752,6 @@ class PlayState extends MusicBeatState
 				}
 				opponentStrums.add(babyArrow);
 			}
-
-			grpSustainSplashes.add(babyArrow.sustainSplash);
 
 			strumLineNotes.add(babyArrow);
 			babyArrow.postAddedToGroup();

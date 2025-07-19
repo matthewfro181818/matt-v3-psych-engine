@@ -1,5 +1,7 @@
 package states;
 
+import haxe.Int64;
+
 import backend.ModchartLoader;
 import backend.Highscore;
 import backend.StageData;

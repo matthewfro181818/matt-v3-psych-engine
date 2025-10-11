@@ -1877,8 +1877,6 @@ class PlayState extends MusicBeatState
 
 		super.update(elapsed);
 
-		modchart.updateEvents();
-
 		setOnScripts('curDecStep', curDecStep);
 		setOnScripts('curDecBeat', curDecBeat);
 

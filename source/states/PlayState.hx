@@ -490,10 +490,6 @@ class PlayState extends MusicBeatState
 		if(ClientPrefs.data.downScroll) timeTxt.y = FlxG.height - 44;
 		if(ClientPrefs.data.timeBarType == 'Song Name') timeTxt.text = SONG.song;
 
-		if (ClientPrefs.data.middleScroll) {
-			flipTimeBoardScroll = !flipTimeBoardScroll;
-		}
-
 		timeBoard = new FlxSprite().loadGraphic(Paths.image('ui/timer'));
 		timeBoard.scrollFactor.set();
 		timeBoard.screenCenter(X);
@@ -509,7 +505,6 @@ class PlayState extends MusicBeatState
 				[-30, 0, 30],
 				[-23*1.5, -23*0.5, 23*0.5, 23*1.5]
 			];
-			var len = (storySongNum + storyPlaylist.length);
 			trace(len);
 			for (i in 0...len) {
 				var num = new FlxSprite(0, timeBoard.y + 50).loadGraphic(Paths.image("ui/Bubble" + (i+1)));
@@ -518,11 +513,6 @@ class PlayState extends MusicBeatState
 				num.alpha = 0;
 				num.x += timeBoardOffset;
 				num.x += numPositions[len][i];
-
-				if (i != storySongNum) {
-					num.color = 0xFF565656;
-				}
-
 				timeBoardNumbers.push(num);
 				uiGroup.add(num);
 			}

@@ -176,7 +176,7 @@ class PlayState extends MusicBeatState
 	public var health(default, set):Float = 1;
 	public var combo:Int = 0;
 
-	public var healthBar:heal;
+	public var healthBar:Bar;
 	public var timeBoard:FlxSprite;
 	public var timeBoardNumbers:Array<FlxSprite> = [];
 	var timeBoardOffset:Float = 0;

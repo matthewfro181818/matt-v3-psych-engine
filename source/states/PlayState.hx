@@ -517,7 +517,6 @@ class PlayState extends MusicBeatState {
 		num.screenCenter(X);
 		num.alpha = 0;
 		num.x += timeBoardOffset;
-		num.x += numPositions[];
 		timeBoardNumbers.push(num);
 		uiGroup.add(num);
 

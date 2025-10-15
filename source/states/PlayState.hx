@@ -511,13 +511,13 @@ class PlayState extends MusicBeatState {
 		uiGroup.add(timeTxt);
 
 		var numPositions:Array<Array<Float>> = [[0], [0], [-20, 20], [-30, 0, 30], [-23 * 1.5, -23 * 0.5, 23 * 0.5, 23 * 1.5]];
-		var num = new FlxSprite(0, timeBoard.y + 50).loadGraphic(Paths.image("ui/Bubble" + (i + 1)));
+		var num = new FlxSprite(0, timeBoard.y + 50).loadGraphic(Paths.image("ui/Bubble"));
 		num.scale.set(0.6, 0.6);
 		num.updateHitbox();
 		num.screenCenter(X);
 		num.alpha = 0;
 		num.x += timeBoardOffset;
-		num.x += numPositions[i];
+		num.x += numPositions[];
 		timeBoardNumbers.push(num);
 		uiGroup.add(num);
 

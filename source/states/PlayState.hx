@@ -956,6 +956,8 @@ class PlayState extends MusicBeatState {
 	public static var startOnTime:Float = 0;
 
 	function cacheCountdown() {
+		var uiPrefix:String = '';
+		var uiSuffix:String = '';
 		var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
 		var introImagesArray:Array<String> = switch (stageUI) {
 			case "pixel": ['pixelUI/ready-pixel', 'pixelUI/set-pixel', 'pixelUI/date-pixel'];
@@ -2549,16 +2551,14 @@ class PlayState extends MusicBeatState {
 
 	private function cachePopUpScore()
 	{
+		var uiFolder:String = "";
 		if (stageUI != "normal")
-		{
-			uiPrefix = '${stageUI}UI/';
-			if (PlayState.isPixelStage) uiSuffix = '-pixel';
-		}
+			uiFolder = uiPrefix + "UI/";
 
 		for (rating in ratingsData)
-			Paths.image(uiPrefix + rating.image + uiSuffix);
+			Paths.image(uiFolder + rating.image + uiPostfix);
 		for (i in 0...10)
-			Paths.image(uiPrefix + 'num' + i + uiSuffix);
+			Paths.image(uiFolder + 'num' + i + uiPostfix);
 	}
 
 	private function popUpScore(note:Note = null):Void {
@@ -2608,9 +2608,7 @@ class PlayState extends MusicBeatState {
 			antialias = !isPixelStage;
 		}
 
-
-
-		rating.loadGraphic(Paths.image(uiPrefix + daRating.image + uiSuffix));
+		rating.loadGraphic(Paths.image(uiFolder + daRating.image + uiPostfix));
 		rating.setGraphicSize(Std.int(rating.width * 0.3));
 		rating.updateHitbox();
 		rating.screenCenter();
@@ -2623,6 +2621,7 @@ class PlayState extends MusicBeatState {
 		rating.antialiasing = antialias;
 
 		comboGroup.add(rating);
+
 
 
 		var comboSpr:FlxSprite = new FlxSprite().loadGraphic(Paths.image(uiFolder + 'combo' + uiPostfix));
@@ -2638,10 +2637,13 @@ class PlayState extends MusicBeatState {
 		comboSpr.velocity.x += FlxG.random.int(1, 10) * playbackRate;
 		comboGroup.add(rating);
 
-		if (!PlayState.isPixelStage) {
+		if (!PlayState.isPixelStage)
+		{
 			rating.setGraphicSize(Std.int(rating.width * 0.7));
 			comboSpr.setGraphicSize(Std.int(comboSpr.width * 0.7));
-		} else {
+		}
+		else
+		{
 			rating.setGraphicSize(Std.int(rating.width * daPixelZoom * 0.85));
 			comboSpr.setGraphicSize(Std.int(comboSpr.width * daPixelZoom * 0.85));
 		}
@@ -2668,7 +2670,7 @@ class PlayState extends MusicBeatState {
 
 		for (i in seperatedScore)
 		{
-			var numScore:FlxSprite = new FlxSprite().loadGraphic(Paths.image(uiPrefix + 'num' + Std.int(i) + uiSuffix));
+			var numScore:FlxSprite = new FlxSprite().loadGraphic(Paths.image(uiFolder + 'num' + Std.parseInt(separatedScore.charAt(i)) + uiPostfix));
 			if (!PlayState.isPixelStage) numScore.setGraphicSize(Std.int(numScore.width * 0.3));
 			else numScore.setGraphicSize(Std.int(numScore.width * daPixelZoom));
 			numScore.updateHitbox();

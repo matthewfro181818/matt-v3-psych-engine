@@ -176,8 +176,8 @@ class PlayState extends MusicBeatState
 	public var health(default, set):Float = 1;
 	public var combo:Int = 0;
 
-	public var healthBar:Bar;
-	public var timeBar:FlxSprite;
+	public var healthBar:heal;
+	public var timeBoard:FlxSprite;
 	public var timeBoardNumbers:Array<FlxSprite> = [];
 	var timeBoardOffset:Float = 0;
 	var songPercent:Float = 0;
@@ -558,7 +558,7 @@ class PlayState extends MusicBeatState
 		moveCameraSection();
 
 
-		healthBar = new HealthBar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.77 : 0), 'ui/healthBar', function() return health, 0, 2);
+		healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.77 : 0), 'ui/healthBar', function() return health, 0, 2);
 		healthBar.screenCenter(X);
 		healthBar.leftToRight = false;
 		healthBar.scrollFactor.set();

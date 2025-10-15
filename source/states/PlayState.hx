@@ -273,6 +273,9 @@ class PlayState extends MusicBeatState {
 	private static var _lastLoadedModDirectory:String = '';
 	public static var nextReloadAll:Bool = false;
 
+	var uiPrefix:String = '';
+	var uiSuffix:String = '';
+
 	override public function create() {
 		// trace('Playback Rate: ' + playbackRate);
 		_lastLoadedModDirectory = Mods.currentModDirectory;
@@ -488,6 +491,8 @@ class PlayState extends MusicBeatState {
 		add(comboGroup);
 		add(uiGroup);
 		add(noteGroup);
+
+		var showTime:Bool = (ClientPrefs.data.timeBarType != 'Disabled');
 
 		timeTxt = new FlxText(0, timeBoard.y + (isStoryMode ? 70 : 60), 0, "", 60);
 		timeTxt.setFormat(Paths.font("BALLSONTHERAMPAGE.ttf"), 60, 0xffff6600, CENTER);
@@ -1879,14 +1884,19 @@ class PlayState extends MusicBeatState {
 	}
 
 	// Health icon updaters
+	public dynamic function updateIconsScale(elapsed:Float)
+	{
+		var mult:Float = FlxMath.lerp(1, iconP1.scale.x, Math.exp(-elapsed * 9 * playbackRate));
+		iconP1.scale.set(mult, mult);
+		iconP1.updateHitbox();
+
+		var mult:Float = FlxMath.lerp(1, iconP2.scale.x, Math.exp(-elapsed * 9 * playbackRate));
+		iconP2.scale.set(mult, mult);
+		iconP2.updateHitbox();
+	}
 
 	public dynamic function updateIconsPosition()
 	{
-		var iconOffset:Int = 26;
-		iconP1.x = healthBar.barCenter + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
-		iconP2.x = healthBar.barCenter - (150 * iconP2.scale.x) / 2 - iconOffset * 2;
-	}
-	public dynamic function updateIconsPosition() {
 		var iconOffset:Int = 26;
 		iconP1.x = healthBar.barCenter + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
 		iconP2.x = healthBar.barCenter - (150 * iconP2.scale.x) / 2 - iconOffset * 2;
@@ -2540,15 +2550,18 @@ class PlayState extends MusicBeatState {
 	// Stores Note Objects in a Group
 	public var noteGroup:FlxTypedGroup<FlxBasic>;
 
-	private function cachePopUpScore() {
-		var uiFolder:String = "";
+	private function cachePopUpScore()
+	{
 		if (stageUI != "normal")
-			uiFolder = uiPrefix + "UI/";
+		{
+			uiPrefix = '${stageUI}UI/';
+			if (PlayState.isPixelStage) uiSuffix = '-pixel';
+		}
 
 		for (rating in ratingsData)
-			Paths.image(uiFolder + rating.image + uiPostfix);
+			Paths.image(uiPrefix + rating.image + uiSuffix);
 		for (i in 0...10)
-			Paths.image(uiFolder + 'num' + i + uiPostfix);
+			Paths.image(uiPrefix + 'num' + i + uiSuffix);
 	}
 
 	private function popUpScore(note:Note = null):Void {

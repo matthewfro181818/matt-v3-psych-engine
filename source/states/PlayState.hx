@@ -489,18 +489,11 @@ class PlayState extends MusicBeatState {
 		add(uiGroup);
 		add(noteGroup);
 
-		Conductor.songPosition = -Conductor.crochet * 5 + Conductor.offset;
-		var showTime:Bool = (ClientPrefs.data.timeBarType != 'Disabled');
-		timeTxt = new FlxText(STRUM_X + (FlxG.width / 2) - 248, 19, 400, "", 32);
-		timeTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		timeTxt.scrollFactor.set();
+		timeTxt = new FlxText(0, timeBoard.y + (isStoryMode ? 70 : 60), 0, "", 60);
+		timeTxt.setFormat(Paths.font("BALLSONTHERAMPAGE.ttf"), 60, 0xffff6600, CENTER);
 		timeTxt.alpha = 0;
-		timeTxt.borderSize = 2;
-		timeTxt.visible = updateTime = showTime;
-		if (ClientPrefs.data.downScroll)
-			timeTxt.y = FlxG.height - 44;
-		if (ClientPrefs.data.timeBarType == 'Song Name')
-			timeTxt.text = SONG.song;
+		timeTxt.visible = timeBoard.visible;
+		uiGroup.add(timeTxt);
 
 		timeBoard = new FlxSprite().loadGraphic(Paths.image('ui/timer'));
 		timeBoard.scrollFactor.set();
@@ -1886,16 +1879,13 @@ class PlayState extends MusicBeatState {
 	}
 
 	// Health icon updaters
-	public dynamic function updateIconsScale(elapsed:Float) {
-		var mult:Float = FlxMath.lerp(1, iconP1.scale.x, Math.exp(-elapsed * 9 * playbackRate));
-		iconP1.scale.set(mult, mult);
-		iconP1.updateHitbox();
 
-		var mult:Float = FlxMath.lerp(1, iconP2.scale.x, Math.exp(-elapsed * 9 * playbackRate));
-		iconP2.scale.set(mult, mult);
-		iconP2.updateHitbox();
+	public dynamic function updateIconsPosition()
+	{
+		var iconOffset:Int = 26;
+		iconP1.x = healthBar.barCenter + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
+		iconP2.x = healthBar.barCenter - (150 * iconP2.scale.x) / 2 - iconOffset * 2;
 	}
-
 	public dynamic function updateIconsPosition() {
 		var iconOffset:Int = 26;
 		iconP1.x = healthBar.barCenter + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
@@ -1903,23 +1893,21 @@ class PlayState extends MusicBeatState {
 	}
 
 	var iconsAnimations:Bool = true;
-
 	function set_health(value:Float):Float // You can alter how icon animations work here
 	{
-		value = FlxMath.roundDecimal(value, 5); // Fix Float imprecision
-		if (!iconsAnimations || healthBar == null || !healthBar.enabled || healthBar.valueFunction == null) {
+		if(!iconsAnimations || healthBar == null || !healthBar.enabled || healthBar.valueFunction == null)
+		{
 			health = value;
 			return health;
 		}
 
 		// update health bar
 		health = value;
-		var newPercent:Null<Float> = FlxMath.remapToRange(FlxMath.bound(healthBar.valueFunction(), healthBar.bounds.min, healthBar.bounds.max),
-			healthBar.bounds.min, healthBar.bounds.max, 0, 100);
+		var newPercent:Null<Float> = FlxMath.remapToRange(FlxMath.bound(healthBar.valueFunction(), healthBar.bounds.min, healthBar.bounds.max), healthBar.bounds.min, healthBar.bounds.max, 0, 100);
 		healthBar.percent = (newPercent != null ? newPercent : 0);
 
-		iconP1.animation.curAnim.curFrame = (healthBar.percent < 20) ? 1 : 0; // If health is under 20%, change player icon to frame 1 (losing icon), otherwise, frame 0 (normal)
-		iconP2.animation.curAnim.curFrame = (healthBar.percent > 80) ? 1 : 0; // If health is over 80%, change opponent icon to frame 1 (losing icon), otherwise, frame 0 (normal)
+		iconP1.setAnimFrame((healthBar.percent < 20) ? 1 : 0); //If health is under 20%, change player icon to frame 1 (losing icon), otherwise, frame 0 (normal)
+		iconP2.setAnimFrame((healthBar.percent > 80) ? 1 : 0); //If health is over 80%, change opponent icon to frame 1 (losing icon), otherwise, frame 0 (normal)
 		return health;
 	}
 
@@ -2610,17 +2598,22 @@ class PlayState extends MusicBeatState {
 			antialias = !isPixelStage;
 		}
 
-		rating.loadGraphic(Paths.image(uiFolder + daRating.image + uiPostfix));
+
+
+		rating.loadGraphic(Paths.image(uiPrefix + daRating.image + uiSuffix));
+		rating.setGraphicSize(Std.int(rating.width * 0.3));
+		rating.updateHitbox();
 		rating.screenCenter();
-		rating.x = placement - 40;
-		rating.y -= 60;
-		rating.acceleration.y = 550 * playbackRate * playbackRate;
-		rating.velocity.y -= FlxG.random.int(140, 175) * playbackRate;
-		rating.velocity.x -= FlxG.random.int(0, 10) * playbackRate;
+		rating.y = healthBar.y+26;
+		//rating.y -= 60;
+
 		rating.visible = (!ClientPrefs.data.hideHud && showRating);
 		rating.x += ClientPrefs.data.comboOffset[0];
 		rating.y -= ClientPrefs.data.comboOffset[1];
 		rating.antialiasing = antialias;
+
+		comboGroup.add(rating);
+
 
 		var comboSpr:FlxSprite = new FlxSprite().loadGraphic(Paths.image(uiFolder + 'combo' + uiPostfix));
 		comboSpr.screenCenter();
@@ -2651,52 +2644,64 @@ class PlayState extends MusicBeatState {
 		if (showCombo)
 			comboGroup.add(comboSpr);
 
-		var separatedScore:String = Std.string(combo).lpad('0', 3);
-		for (i in 0...separatedScore.length) {
-			var numScore:FlxSprite = new FlxSprite().loadGraphic(Paths.image(uiFolder + 'num' + Std.parseInt(separatedScore.charAt(i)) + uiPostfix));
-			numScore.screenCenter();
-			numScore.x = placement + (43 * daLoop) - 90 + ClientPrefs.data.comboOffset[2];
-			numScore.y += 80 - ClientPrefs.data.comboOffset[3];
+		var seperatedScore:Array<Int> = [];
 
-			if (!PlayState.isPixelStage)
-				numScore.setGraphicSize(Std.int(numScore.width * 0.5));
-			else
-				numScore.setGraphicSize(Std.int(numScore.width * daPixelZoom));
+		if(combo >= 1000) {
+			seperatedScore.push(Math.floor(combo / 1000) % 10);
+		}
+		seperatedScore.push(Math.floor(combo / 100) % 10);
+		seperatedScore.push(Math.floor(combo / 10) % 10);
+		seperatedScore.push(combo % 10);
+
+		var daLoop:Int = 0;
+		var xThing:Float = 0;
+
+		for (i in seperatedScore)
+		{
+			var numScore:FlxSprite = new FlxSprite().loadGraphic(Paths.image(uiPrefix + 'num' + Std.int(i) + uiSuffix));
+			if (!PlayState.isPixelStage) numScore.setGraphicSize(Std.int(numScore.width * 0.3));
+			else numScore.setGraphicSize(Std.int(numScore.width * daPixelZoom));
 			numScore.updateHitbox();
+			numScore.screenCenter();
+			numScore.y = (ClientPrefs.data.downScroll ? 160 : -25) + healthBar.y;
+			//numScore.x = placement + (55 * daLoop) - 90 + ClientPrefs.data.comboOffset[2];
+			numScore.x += (36 * daLoop) + ClientPrefs.data.comboOffset[2];
+			numScore.x -= ((seperatedScore.length/2)-0.5)*36;
+			//numScore.x -= 25;
+			numScore.y += 0 - ClientPrefs.data.comboOffset[3];
 
-			numScore.acceleration.y = FlxG.random.int(200, 300) * playbackRate * playbackRate;
-			numScore.velocity.y -= FlxG.random.int(140, 160) * playbackRate;
-			numScore.velocity.x = FlxG.random.float(-5, 5) * playbackRate;
+			//numScore.scale.x *= 1.25;
+			//numScore.scale.y *= 1.25;
+
 			numScore.visible = !ClientPrefs.data.hideHud;
 			numScore.antialiasing = antialias;
 
-			// if (combo >= 10 || combo == 0)
-			if (showComboNum)
+			if(showComboNum)
 				comboGroup.add(numScore);
 
 			FlxTween.tween(numScore, {alpha: 0}, 0.2 / playbackRate, {
-				onComplete: function(tween:FlxTween) {
+				onComplete: function(tween:FlxTween)
+				{
 					numScore.destroy();
 				},
 				startDelay: Conductor.crochet * 0.002 / playbackRate
 			});
+			FlxTween.tween(numScore.scale, {x: numScore.scale.x / 1.25, y: numScore.scale.y / 1.25}, Conductor.crochet * 0.002 / playbackRate, {ease:FlxEase.cubeOut});
 
 			daLoop++;
-			if (numScore.x > xThing)
-				xThing = numScore.x;
+			//if(numScore.x > xThing) xThing = numScore.x;
 		}
-		comboSpr.x = xThing + 50;
+		//comboSpr.x = xThing + 50;
 		FlxTween.tween(rating, {alpha: 0}, 0.2 / playbackRate, {
-			startDelay: Conductor.crochet * 0.001 / playbackRate
-		});
-
-		FlxTween.tween(comboSpr, {alpha: 0}, 0.2 / playbackRate, {
-			onComplete: function(tween:FlxTween) {
-				comboSpr.destroy();
+			startDelay: Conductor.crochet * 0.001 / playbackRate,
+			onComplete: function(tween:FlxTween)
+			{
 				rating.destroy();
 			},
-			startDelay: Conductor.crochet * 0.002 / playbackRate
 		});
+		//rating.scale.x *= 1.25;
+		//rating.scale.y *= 1.25;
+		FlxTween.tween(rating.scale, {x: rating.scale.x / 1.25, y: rating.scale.y / 1.25}, Conductor.crochet * 0.002 / playbackRate, {ease:FlxEase.cubeOut});
 	}
 
 	public var strumsBlocked:Array<Bool> = [];

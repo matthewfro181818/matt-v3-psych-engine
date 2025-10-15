@@ -505,8 +505,7 @@ class PlayState extends MusicBeatState
 				[-30, 0, 30],
 				[-23*1.5, -23*0.5, 23*0.5, 23*1.5]
 			];
-			trace(len);
-			for (i in 0...len) {
+			for (i in 0) {
 				var num = new FlxSprite(0, timeBoard.y + 50).loadGraphic(Paths.image("ui/Bubble" + (i+1)));
 				num.scale.set(0.6, 0.6); num.updateHitbox();
 				num.screenCenter(X);

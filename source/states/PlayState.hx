@@ -273,9 +273,6 @@ class PlayState extends MusicBeatState {
 	private static var _lastLoadedModDirectory:String = '';
 	public static var nextReloadAll:Bool = false;
 
-	var uiPrefix:String = '';
-	var uiSuffix:String = '';
-
 	override public function create() {
 		// trace('Playback Rate: ' + playbackRate);
 		_lastLoadedModDirectory = Mods.currentModDirectory;

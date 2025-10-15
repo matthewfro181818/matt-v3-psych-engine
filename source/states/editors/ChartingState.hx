@@ -66,16 +66,6 @@ enum abstract WaveformTarget(String)
 
 class ChartingState extends MusicBeatState implements PsychUIEventHandler.PsychUIEvent
 {
-	public static var noteTypeList:Array<String> = //Used for backwards compatibility with 0.1 - 0.3.2 charts, though, you should add your hardcoded custom note types here too.
-	[
-		'',
-		'Alt Animation',
-		'Hey!',
-		'Hurt Note',
-		'GF Sing',
-		'No Animation'
-	];
-
 	public static final defaultEvents:Array<Array<String>> =
 	[
 		['', "Nothing. Yep, that's right."], //Always leave this one empty pls
@@ -225,8 +215,6 @@ class ChartingState extends MusicBeatState implements PsychUIEventHandler.PsychU
 	var vortexEnabled:Bool = false;
 	var waveformEnabled:Bool = false;
 	var waveformTarget:WaveformTarget = INST;
-
-	var _song:SwagSong;
 
 	override function create()
 	{
@@ -619,10 +607,6 @@ class ChartingState extends MusicBeatState implements PsychUIEventHandler.PsychU
 		};
 		Song.chartPath = null;
 		loadChart(song);
-		
-		if (_song.keyCount != null)
-			PlayState.keyCount = _song.keyCount;
-
 	}
 
 	function prepareReload()
@@ -671,7 +655,7 @@ class ChartingState extends MusicBeatState implements PsychUIEventHandler.PsychU
 		noteTextureInputText.text = PlayState.SONG.arrowSkin;
 		noteSplashesInputText.text = PlayState.SONG.splashSkin;
 	}
-
+	
 	var noteSelectionSine:Float = 0;
 	var selectedNotes:Array<MetaNote> = [];
 	var ignoreClickForThisFrame:Bool = false;

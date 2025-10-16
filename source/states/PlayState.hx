@@ -491,11 +491,16 @@ class PlayState extends MusicBeatState {
 
 		var showTime:Bool = (ClientPrefs.data.timeBarType != 'Disabled');
 
-		timeTxt = new FlxText(0, timeBoard.y + (isStoryMode ? 70 : 60), 0, "", 60);
+		Conductor.songPosition = -Conductor.crochet * 5 + Conductor.offset;
+		var showTime:Bool = (ClientPrefs.data.timeBarType != 'Disabled');
+		timeTxt = new FlxText(STRUM_X + (FlxG.width / 2) - 248, 19, 400, "", 32);
 		timeTxt.setFormat(Paths.font("BALLSONTHERAMPAGE.ttf"), 60, 0xffff6600, CENTER);
+		timeTxt.scrollFactor.set();
 		timeTxt.alpha = 0;
-		timeTxt.visible = timeBoard.visible;
-		uiGroup.add(timeTxt);
+		timeTxt.borderSize = 2;
+		timeTxt.visible = updateTime = showTime;
+		if(ClientPrefs.data.downScroll) timeTxt.y = FlxG.height - 44;
+		if(ClientPrefs.data.timeBarType == 'Song Name') timeTxt.text = SONG.song;
 
 		timeBoard = new FlxSprite().loadGraphic(Paths.image('ui/timer'));
 		timeBoard.scrollFactor.set();
@@ -554,13 +559,13 @@ class PlayState extends MusicBeatState {
 		uiGroup.add(healthBar);
 
 		iconP1 = new HealthIcon(boyfriend.healthIcon, true);
-		iconP1.setPosition(healthBar.x + healthBar.width + -415, healthBar.y);
+		iconP1.setPosition(healthBar.x + healthBar.width + -415,healthBar.y);
 		iconP1.visible = !ClientPrefs.data.hideHud;
 		iconP1.alpha = ClientPrefs.data.healthBarAlpha;
 		uiGroup.add(iconP1);
 
 		iconP2 = new HealthIcon(dad.healthIcon, false);
-		iconP2.setPosition(healthBar.x - iconP2.width - -415, healthBar.y);
+		iconP2.setPosition(healthBar.x - iconP2.width - -415,healthBar.y);
 		iconP2.visible = !ClientPrefs.data.hideHud;
 		iconP2.alpha = ClientPrefs.data.healthBarAlpha;
 		uiGroup.add(iconP2);
@@ -2622,8 +2627,6 @@ class PlayState extends MusicBeatState {
 
 		comboGroup.add(rating);
 
-
-
 		var comboSpr:FlxSprite = new FlxSprite().loadGraphic(Paths.image(uiFolder + 'combo' + uiPostfix));
 		comboSpr.screenCenter();
 		comboSpr.x = placement;
@@ -2658,19 +2661,9 @@ class PlayState extends MusicBeatState {
 
 		var seperatedScore:Array<Int> = [];
 
-		if(combo >= 1000) {
-			seperatedScore.push(Math.floor(combo / 1000) % 10);
-		}
-		seperatedScore.push(Math.floor(combo / 100) % 10);
-		seperatedScore.push(Math.floor(combo / 10) % 10);
-		seperatedScore.push(combo % 10);
-
-		var daLoop:Int = 0;
-		var xThing:Float = 0;
-
 		for (i in seperatedScore)
 		{
-			var numScore:FlxSprite = new FlxSprite().loadGraphic(Paths.image(uiFolder + 'num' + Std.parseInt(separatedScore.charAt(i)) + uiPostfix));
+			var numScore:FlxSprite = new FlxSprite().loadGraphic(Paths.image(uiPrefix + 'num' + Std.int(i) + uiPostfix));
 			if (!PlayState.isPixelStage) numScore.setGraphicSize(Std.int(numScore.width * 0.3));
 			else numScore.setGraphicSize(Std.int(numScore.width * daPixelZoom));
 			numScore.updateHitbox();
